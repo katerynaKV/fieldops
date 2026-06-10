@@ -1,1 +1,6477 @@
-{}
+{
+  "assets": [
+    {
+      "id": "ast-001",
+      "name": "Compressor-01",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Ingersoll Rand",
+      "model": "Sierra 50",
+      "serialNumber": "SN-A006WZ65",
+      "installedAt": "2021-12-30",
+      "lastServicedAt": "2025-10-10",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-12-30T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-004",
+      "name": "Compressor-02",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Ingersoll Rand",
+      "model": "Sierra 50",
+      "serialNumber": "SN-PBJFWAAA",
+      "installedAt": "2018-11-29",
+      "lastServicedAt": "2025-05-14",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2018-11-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-007",
+      "name": "Compressor-03",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "Atlas Copco",
+      "model": "GA 90",
+      "serialNumber": "SN-DGHOIE6J",
+      "installedAt": "2022-08-03",
+      "lastServicedAt": "2026-04-15",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-08-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-010",
+      "name": "Compressor-04",
+      "type": "compressor",
+      "status": "warning",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Ingersoll Rand",
+      "model": "R-Series 75",
+      "serialNumber": "SN-8W05RCV6",
+      "installedAt": "2020-04-10",
+      "lastServicedAt": "2025-08-08",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "Operating near upper limit. Monitor closely.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-04-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-013",
+      "name": "Compressor-05",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "Atlas Copco",
+      "model": "GA 45+",
+      "serialNumber": "SN-F35LCI0I",
+      "installedAt": "2023-01-07",
+      "lastServicedAt": "2026-01-31",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2023-01-07T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-016",
+      "name": "Compressor-06",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Atlas Copco",
+      "model": "GA 45+",
+      "serialNumber": "SN-XETDCVOZ",
+      "installedAt": "2023-03-05",
+      "lastServicedAt": "2025-02-08",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2023-03-05T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-019",
+      "name": "Compressor-07",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-004",
+      "siteName": "Site D – Dubai Terminal",
+      "manufacturer": "Atlas Copco",
+      "model": "ZR 90-160",
+      "serialNumber": "SN-2J28ZMHP",
+      "installedAt": "2022-05-11",
+      "lastServicedAt": "2026-05-03",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-05-11T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-022",
+      "name": "Compressor-08",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Atlas Copco",
+      "model": "ZR 90-160",
+      "serialNumber": "SN-UI2MEVKX",
+      "installedAt": "2022-05-18",
+      "lastServicedAt": "2026-01-02",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-05-18T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-025",
+      "name": "Compressor-09",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Atlas Copco",
+      "model": "GA 90",
+      "serialNumber": "SN-PLTZRBCN",
+      "installedAt": "2019-08-23",
+      "lastServicedAt": "2025-12-01",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-08-23T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-028",
+      "name": "Compressor-10",
+      "type": "compressor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Ingersoll Rand",
+      "model": "Sierra 50",
+      "serialNumber": "SN-24ELVRES",
+      "installedAt": "2019-11-25",
+      "lastServicedAt": "2025-08-11",
+      "thresholds": {
+        "pressure": {
+          "max": 130,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 110,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-11-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-031",
+      "name": "Pump-01",
+      "type": "pump",
+      "status": "critical",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "KSB",
+      "model": "MegaCPK 125",
+      "serialNumber": "SN-3IZIJUOE",
+      "installedAt": "2020-06-26",
+      "lastServicedAt": "2025-01-02",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "Threshold breached — maintenance required urgently.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-06-26T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-034",
+      "name": "Pump-02",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Grundfos",
+      "model": "NB 65-315",
+      "serialNumber": "SN-NJDSL2C3",
+      "installedAt": "2022-06-29",
+      "lastServicedAt": "2025-08-29",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-06-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-037",
+      "name": "Pump-03",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "KSB",
+      "model": "MegaCPK 125",
+      "serialNumber": "SN-R5K0K8K9",
+      "installedAt": "2019-01-16",
+      "lastServicedAt": "2025-07-03",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-01-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-040",
+      "name": "Pump-04",
+      "type": "pump",
+      "status": "warning",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "KSB",
+      "model": "MegaCPK 125",
+      "serialNumber": "SN-DN9XZ8P9",
+      "installedAt": "2022-08-27",
+      "lastServicedAt": "2026-05-14",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "Operating near upper limit. Monitor closely.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-08-27T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-043",
+      "name": "Pump-05",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "KSB",
+      "model": "Etanorm 065",
+      "serialNumber": "SN-K64N5D2Z",
+      "installedAt": "2019-07-21",
+      "lastServicedAt": "2026-05-02",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-07-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-046",
+      "name": "Pump-06",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "KSB",
+      "model": "Etanorm 065",
+      "serialNumber": "SN-0RIBF9RL",
+      "installedAt": "2021-06-17",
+      "lastServicedAt": "2025-05-12",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-06-17T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-049",
+      "name": "Pump-07",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "KSB",
+      "model": "Etanorm 065",
+      "serialNumber": "SN-X7PKUGQU",
+      "installedAt": "2022-10-29",
+      "lastServicedAt": "2025-09-08",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-10-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-052",
+      "name": "Pump-08",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Grundfos",
+      "model": "NB 65-315",
+      "serialNumber": "SN-2V51WU2Q",
+      "installedAt": "2020-01-12",
+      "lastServicedAt": "2025-10-01",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-01-12T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-055",
+      "name": "Pump-09",
+      "type": "pump",
+      "status": "critical",
+      "siteId": "site-004",
+      "siteName": "Site D – Dubai Terminal",
+      "manufacturer": "KSB",
+      "model": "MegaCPK 125",
+      "serialNumber": "SN-V9KQY1N0",
+      "installedAt": "2020-04-19",
+      "lastServicedAt": "2026-02-21",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "Threshold breached — maintenance required urgently.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-04-19T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-058",
+      "name": "Pump-10",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "Grundfos",
+      "model": "CR 45-5",
+      "serialNumber": "SN-JLP8BH0P",
+      "installedAt": "2020-12-28",
+      "lastServicedAt": "2026-04-03",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-12-28T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-061",
+      "name": "Pump-11",
+      "type": "pump",
+      "status": "offline",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "KSB",
+      "model": "MegaCPK 125",
+      "serialNumber": "SN-OPN89FFI",
+      "installedAt": "2021-01-04",
+      "lastServicedAt": null,
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "Taken offline for scheduled inspection.",
+      "lastReadingAt": null,
+      "createdAt": "2021-01-04T00:00:00.000Z",
+      "updatedAt": "2021-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "ast-064",
+      "name": "Pump-12",
+      "type": "pump",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "Grundfos",
+      "model": "CR 45-5",
+      "serialNumber": "SN-54X9LML7",
+      "installedAt": "2018-10-20",
+      "lastServicedAt": "2025-12-24",
+      "thresholds": {
+        "pressure": {
+          "max": 55,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 85,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2018-10-20T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-067",
+      "name": "Valve-01",
+      "type": "valve",
+      "status": "online",
+      "siteId": "site-001",
+      "siteName": "Site A – Aberdeen Refinery",
+      "manufacturer": "Flowserve",
+      "model": "Valtek Control",
+      "serialNumber": "SN-MNDILGA4",
+      "installedAt": "2021-06-21",
+      "lastServicedAt": "2025-07-25",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-06-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-070",
+      "name": "Valve-02",
+      "type": "valve",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Flowserve",
+      "model": "Mark 1",
+      "serialNumber": "SN-IPWWTWUX",
+      "installedAt": "2021-08-17",
+      "lastServicedAt": "2026-01-27",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-08-17T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-073",
+      "name": "Valve-03",
+      "type": "valve",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Flowserve",
+      "model": "Mark 1",
+      "serialNumber": "SN-VGB57QUP",
+      "installedAt": "2019-08-08",
+      "lastServicedAt": "2025-02-06",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-08-08T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-076",
+      "name": "Valve-04",
+      "type": "valve",
+      "status": "warning",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "Flowserve",
+      "model": "Valtek Control",
+      "serialNumber": "SN-SXVN69H8",
+      "installedAt": "2018-07-11",
+      "lastServicedAt": "2025-11-02",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "Operating near upper limit. Monitor closely.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2018-07-11T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-079",
+      "name": "Valve-05",
+      "type": "valve",
+      "status": "warning",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Flowserve",
+      "model": "Mark 1",
+      "serialNumber": "SN-B135X2ZA",
+      "installedAt": "2019-05-16",
+      "lastServicedAt": "2026-01-05",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "Operating near upper limit. Monitor closely.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-05-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-082",
+      "name": "Valve-06",
+      "type": "valve",
+      "status": "online",
+      "siteId": "site-001",
+      "siteName": "Site A – Aberdeen Refinery",
+      "manufacturer": "Flowserve",
+      "model": "Mark 1",
+      "serialNumber": "SN-82Q0TQ8Q",
+      "installedAt": "2022-11-14",
+      "lastServicedAt": "2024-12-30",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-11-14T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-085",
+      "name": "Valve-07",
+      "type": "valve",
+      "status": "critical",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Emerson",
+      "model": "Fisher D4",
+      "serialNumber": "SN-FG8SK1F5",
+      "installedAt": "2021-04-01",
+      "lastServicedAt": "2025-02-25",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "Threshold breached — maintenance required urgently.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-04-01T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-088",
+      "name": "Valve-08",
+      "type": "valve",
+      "status": "online",
+      "siteId": "site-004",
+      "siteName": "Site D – Dubai Terminal",
+      "manufacturer": "Emerson",
+      "model": "Fisher D4",
+      "serialNumber": "SN-1HSNJ299",
+      "installedAt": "2021-12-23",
+      "lastServicedAt": "2026-05-23",
+      "thresholds": {
+        "pressure": {
+          "max": 48,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 80,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-12-23T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-091",
+      "name": "Sensor-01",
+      "type": "sensor",
+      "status": "warning",
+      "siteId": "site-001",
+      "siteName": "Site A – Aberdeen Refinery",
+      "manufacturer": "Honeywell",
+      "model": "SmartLine",
+      "serialNumber": "SN-MQAJ5EEY",
+      "installedAt": "2019-12-03",
+      "lastServicedAt": "2025-02-01",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "Operating near upper limit. Monitor closely.",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-12-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-094",
+      "name": "Sensor-02",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-004",
+      "siteName": "Site D – Dubai Terminal",
+      "manufacturer": "Endress+Hauser",
+      "model": "iTEMP TMT84",
+      "serialNumber": "SN-OE2LJ7IS",
+      "installedAt": "2019-01-24",
+      "lastServicedAt": "2025-06-03",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-01-24T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-097",
+      "name": "Sensor-03",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Endress+Hauser",
+      "model": "Cerabar M",
+      "serialNumber": "SN-9CLR1PH1",
+      "installedAt": "2021-04-16",
+      "lastServicedAt": "2025-10-11",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-04-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-100",
+      "name": "Sensor-04",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Endress+Hauser",
+      "model": "iTEMP TMT84",
+      "serialNumber": "SN-7OH4BLQQ",
+      "installedAt": "2020-09-21",
+      "lastServicedAt": "2025-04-16",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-09-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-103",
+      "name": "Sensor-05",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "Endress+Hauser",
+      "model": "iTEMP TMT84",
+      "serialNumber": "SN-HBLJAK8B",
+      "installedAt": "2018-12-10",
+      "lastServicedAt": "2025-12-13",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2018-12-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-106",
+      "name": "Sensor-06",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "Endress+Hauser",
+      "model": "Cerabar M",
+      "serialNumber": "SN-PKGGG484",
+      "installedAt": "2020-09-03",
+      "lastServicedAt": "2025-01-16",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-09-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-109",
+      "name": "Sensor-07",
+      "type": "sensor",
+      "status": "offline",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Honeywell",
+      "model": "SmartLine",
+      "serialNumber": "SN-7GGQ8AQ0",
+      "installedAt": "2023-01-06",
+      "lastServicedAt": null,
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "Taken offline for scheduled inspection.",
+      "lastReadingAt": null,
+      "createdAt": "2023-01-06T00:00:00.000Z",
+      "updatedAt": "2023-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "ast-112",
+      "name": "Sensor-08",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-004",
+      "siteName": "Site D – Dubai Terminal",
+      "manufacturer": "Honeywell",
+      "model": "SmartLine",
+      "serialNumber": "SN-SS1GUXAW",
+      "installedAt": "2019-09-25",
+      "lastServicedAt": "2026-05-08",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-09-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-115",
+      "name": "Sensor-09",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-001",
+      "siteName": "Site A – Aberdeen Refinery",
+      "manufacturer": "Endress+Hauser",
+      "model": "iTEMP TMT84",
+      "serialNumber": "SN-9SALQZSD",
+      "installedAt": "2022-10-04",
+      "lastServicedAt": "2025-02-02",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-10-04T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-118",
+      "name": "Sensor-10",
+      "type": "sensor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Honeywell",
+      "model": "SmartLine",
+      "serialNumber": "SN-3UJNPMD7",
+      "installedAt": "2018-07-31",
+      "lastServicedAt": "2026-04-27",
+      "thresholds": {
+        "pressure": {
+          "max": 28,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 40,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2018-07-31T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-121",
+      "name": "Motor-01",
+      "type": "motor",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "ABB",
+      "model": "M3BP 200",
+      "serialNumber": "SN-VVX96UZP",
+      "installedAt": "2018-07-08",
+      "lastServicedAt": "2025-03-07",
+      "thresholds": {
+        "pressure": {
+          "max": 12,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 95,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2018-07-08T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-124",
+      "name": "Motor-02",
+      "type": "motor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Siemens",
+      "model": "SIMOTICS SD 1LG4",
+      "serialNumber": "SN-4FY6GEOZ",
+      "installedAt": "2020-07-25",
+      "lastServicedAt": "2026-05-25",
+      "thresholds": {
+        "pressure": {
+          "max": 12,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 95,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-07-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-127",
+      "name": "Motor-03",
+      "type": "motor",
+      "status": "online",
+      "siteId": "site-001",
+      "siteName": "Site A – Aberdeen Refinery",
+      "manufacturer": "ABB",
+      "model": "M3BP 200",
+      "serialNumber": "SN-ITEEZQ6U",
+      "installedAt": "2020-08-24",
+      "lastServicedAt": "2025-07-11",
+      "thresholds": {
+        "pressure": {
+          "max": 12,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 95,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-08-24T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-130",
+      "name": "Motor-04",
+      "type": "motor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "ABB",
+      "model": "M3BP 200",
+      "serialNumber": "SN-ZFPAEMBX",
+      "installedAt": "2019-03-21",
+      "lastServicedAt": "2025-01-21",
+      "thresholds": {
+        "pressure": {
+          "max": 12,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 95,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-03-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-133",
+      "name": "Motor-05",
+      "type": "motor",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "ABB",
+      "model": "M3BP 200",
+      "serialNumber": "SN-XEJR02TP",
+      "installedAt": "2022-02-10",
+      "lastServicedAt": "2026-04-23",
+      "thresholds": {
+        "pressure": {
+          "max": 12,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 95,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-02-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-136",
+      "name": "Motor-06",
+      "type": "motor",
+      "status": "online",
+      "siteId": "site-003",
+      "siteName": "Site C – Cologne Plant",
+      "manufacturer": "ABB",
+      "model": "HXR 450",
+      "serialNumber": "SN-2BMZF5GI",
+      "installedAt": "2019-09-13",
+      "lastServicedAt": "2025-08-29",
+      "thresholds": {
+        "pressure": {
+          "max": 12,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 95,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-09-13T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-139",
+      "name": "HeatExch-01",
+      "type": "heat_exchanger",
+      "status": "online",
+      "siteId": "site-002",
+      "siteName": "Site B – Bergen Offshore",
+      "manufacturer": "Alfa Laval",
+      "model": "T20-BFG",
+      "serialNumber": "SN-9G15TYIW",
+      "installedAt": "2022-02-22",
+      "lastServicedAt": "2025-09-24",
+      "thresholds": {
+        "pressure": {
+          "max": 35,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 105,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2022-02-22T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-142",
+      "name": "HeatExch-02",
+      "type": "heat_exchanger",
+      "status": "online",
+      "siteId": "site-005",
+      "siteName": "Site E – Edmonton Mill",
+      "manufacturer": "SWEP",
+      "model": "B25Hx60",
+      "serialNumber": "SN-QWWOOZC1",
+      "installedAt": "2019-04-03",
+      "lastServicedAt": "2026-02-19",
+      "thresholds": {
+        "pressure": {
+          "max": 35,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 105,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2019-04-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-145",
+      "name": "HeatExch-03",
+      "type": "heat_exchanger",
+      "status": "online",
+      "siteId": "site-004",
+      "siteName": "Site D – Dubai Terminal",
+      "manufacturer": "SWEP",
+      "model": "B25Hx60",
+      "serialNumber": "SN-31K3MPQX",
+      "installedAt": "2021-06-25",
+      "lastServicedAt": "2025-09-16",
+      "thresholds": {
+        "pressure": {
+          "max": 35,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 105,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2021-06-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ast-148",
+      "name": "HeatExch-04",
+      "type": "heat_exchanger",
+      "status": "online",
+      "siteId": "site-001",
+      "siteName": "Site A – Aberdeen Refinery",
+      "manufacturer": "SWEP",
+      "model": "B35Tx40",
+      "serialNumber": "SN-XAZBFJ6Z",
+      "installedAt": "2020-03-30",
+      "lastServicedAt": "2025-07-20",
+      "thresholds": {
+        "pressure": {
+          "max": 35,
+          "unit": "bar"
+        },
+        "temperature": {
+          "max": 105,
+          "unit": "°C"
+        }
+      },
+      "notes": "",
+      "lastReadingAt": "2026-06-08T10:00:00.000Z",
+      "createdAt": "2020-03-30T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    }
+  ],
+  "timeseries": [
+    {
+      "id": "ts-002",
+      "assetId": "ast-001",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 109.64
+        },
+        {
+          "timestamp": "2026-05-12T17:25:26.991Z",
+          "value": 110.78
+        },
+        {
+          "timestamp": "2026-05-16T02:18:00.470Z",
+          "value": 109.42
+        },
+        {
+          "timestamp": "2026-05-19T09:39:20.858Z",
+          "value": 104.32
+        },
+        {
+          "timestamp": "2026-05-22T18:06:35.216Z",
+          "value": 108.39
+        },
+        {
+          "timestamp": "2026-05-26T03:10:31.877Z",
+          "value": 107.53
+        },
+        {
+          "timestamp": "2026-05-29T11:21:33.394Z",
+          "value": 106.14
+        },
+        {
+          "timestamp": "2026-06-01T17:52:26.998Z",
+          "value": 105
+        },
+        {
+          "timestamp": "2026-06-05T02:51:01.868Z",
+          "value": 102.56
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 107.17
+        }
+      ],
+      "createdAt": "2021-12-30T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-003",
+      "assetId": "ast-001",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 81.27
+        },
+        {
+          "timestamp": "2026-05-12T17:25:26.991Z",
+          "value": 99.48
+        },
+        {
+          "timestamp": "2026-05-16T02:18:00.470Z",
+          "value": 79.45
+        },
+        {
+          "timestamp": "2026-05-19T09:39:20.858Z",
+          "value": 83.3
+        },
+        {
+          "timestamp": "2026-05-22T18:06:35.216Z",
+          "value": 87.19
+        },
+        {
+          "timestamp": "2026-05-26T03:10:31.877Z",
+          "value": 87.38
+        },
+        {
+          "timestamp": "2026-05-29T11:21:33.394Z",
+          "value": 91.85
+        },
+        {
+          "timestamp": "2026-06-01T17:52:26.998Z",
+          "value": 94.41
+        },
+        {
+          "timestamp": "2026-06-05T02:51:01.868Z",
+          "value": 98.37
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 96.54
+        }
+      ],
+      "createdAt": "2021-12-30T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-005",
+      "assetId": "ast-004",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 119.07
+        },
+        {
+          "timestamp": "2026-05-12T16:47:21.737Z",
+          "value": 119.93
+        },
+        {
+          "timestamp": "2026-05-16T02:23:09.312Z",
+          "value": 115.9
+        },
+        {
+          "timestamp": "2026-05-19T08:36:44.930Z",
+          "value": 120.27
+        },
+        {
+          "timestamp": "2026-05-22T17:07:32.527Z",
+          "value": 120.77
+        },
+        {
+          "timestamp": "2026-05-26T03:07:39.073Z",
+          "value": 121.7
+        },
+        {
+          "timestamp": "2026-05-29T09:30:26.623Z",
+          "value": 116.6
+        },
+        {
+          "timestamp": "2026-06-01T17:23:27.694Z",
+          "value": 117.34
+        },
+        {
+          "timestamp": "2026-06-05T02:27:59.041Z",
+          "value": 117.14
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 120.77
+        }
+      ],
+      "createdAt": "2018-11-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-006",
+      "assetId": "ast-004",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 80.16
+        },
+        {
+          "timestamp": "2026-05-12T16:47:21.737Z",
+          "value": 79.66
+        },
+        {
+          "timestamp": "2026-05-16T02:23:09.312Z",
+          "value": 75.06
+        },
+        {
+          "timestamp": "2026-05-19T08:36:44.930Z",
+          "value": 78.52
+        },
+        {
+          "timestamp": "2026-05-22T17:07:32.527Z",
+          "value": 79.38
+        },
+        {
+          "timestamp": "2026-05-26T03:07:39.073Z",
+          "value": 80.43
+        },
+        {
+          "timestamp": "2026-05-29T09:30:26.623Z",
+          "value": 76.63
+        },
+        {
+          "timestamp": "2026-06-01T17:23:27.694Z",
+          "value": 76.6
+        },
+        {
+          "timestamp": "2026-06-05T02:27:59.041Z",
+          "value": 81.3
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 78
+        }
+      ],
+      "createdAt": "2018-11-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-008",
+      "assetId": "ast-007",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 115.91
+        },
+        {
+          "timestamp": "2026-05-12T19:28:17.088Z",
+          "value": 120.82
+        },
+        {
+          "timestamp": "2026-05-16T00:58:11.803Z",
+          "value": 115.5
+        },
+        {
+          "timestamp": "2026-05-19T11:19:53.030Z",
+          "value": 111.53
+        },
+        {
+          "timestamp": "2026-05-22T19:24:46.002Z",
+          "value": 111.07
+        },
+        {
+          "timestamp": "2026-05-26T02:52:01.864Z",
+          "value": 108.19
+        },
+        {
+          "timestamp": "2026-05-29T09:57:46.575Z",
+          "value": 114.01
+        },
+        {
+          "timestamp": "2026-06-01T17:48:53.573Z",
+          "value": 111.68
+        },
+        {
+          "timestamp": "2026-06-05T02:04:14.378Z",
+          "value": 113.14
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 143.1,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2022-08-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-009",
+      "assetId": "ast-007",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 82.46
+        },
+        {
+          "timestamp": "2026-05-12T19:28:17.088Z",
+          "value": 86.74
+        },
+        {
+          "timestamp": "2026-05-16T00:58:11.803Z",
+          "value": 103.54
+        },
+        {
+          "timestamp": "2026-05-19T11:19:53.030Z",
+          "value": 90.46
+        },
+        {
+          "timestamp": "2026-05-22T19:24:46.002Z",
+          "value": 90.42
+        },
+        {
+          "timestamp": "2026-05-26T02:52:01.864Z",
+          "value": 94
+        },
+        {
+          "timestamp": "2026-05-29T09:57:46.575Z",
+          "value": 91.36
+        },
+        {
+          "timestamp": "2026-06-01T17:48:53.573Z",
+          "value": 94.97
+        },
+        {
+          "timestamp": "2026-06-05T02:04:14.378Z",
+          "value": 99.89
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 99.83
+        }
+      ],
+      "createdAt": "2022-08-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-011",
+      "assetId": "ast-010",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 109.74
+        },
+        {
+          "timestamp": "2026-05-12T18:07:46.179Z",
+          "value": 112.75
+        },
+        {
+          "timestamp": "2026-05-16T02:05:27.571Z",
+          "value": 112.87
+        },
+        {
+          "timestamp": "2026-05-19T09:05:36.209Z",
+          "value": 115.99
+        },
+        {
+          "timestamp": "2026-05-22T17:44:20.685Z",
+          "value": 115.07
+        },
+        {
+          "timestamp": "2026-05-26T01:32:48.020Z",
+          "value": 121.27
+        },
+        {
+          "timestamp": "2026-05-29T09:37:35.703Z",
+          "value": 117.65
+        },
+        {
+          "timestamp": "2026-06-01T19:09:26.348Z",
+          "value": 116.14
+        },
+        {
+          "timestamp": "2026-06-05T01:30:05.439Z",
+          "value": 111.53
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 107.74
+        }
+      ],
+      "createdAt": "2020-04-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-012",
+      "assetId": "ast-010",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 84.84
+        },
+        {
+          "timestamp": "2026-05-12T18:07:46.179Z",
+          "value": 82.07
+        },
+        {
+          "timestamp": "2026-05-16T02:05:27.571Z",
+          "value": 78.05
+        },
+        {
+          "timestamp": "2026-05-19T09:05:36.209Z",
+          "value": 76.21
+        },
+        {
+          "timestamp": "2026-05-22T17:44:20.685Z",
+          "value": 72.83
+        },
+        {
+          "timestamp": "2026-05-26T01:32:48.020Z",
+          "value": 90.71
+        },
+        {
+          "timestamp": "2026-05-29T09:37:35.703Z",
+          "value": 67.23
+        },
+        {
+          "timestamp": "2026-06-01T19:09:26.348Z",
+          "value": 85.71
+        },
+        {
+          "timestamp": "2026-06-05T01:30:05.439Z",
+          "value": 68.32
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 72.66
+        }
+      ],
+      "createdAt": "2020-04-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-014",
+      "assetId": "ast-013",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 116.77
+        },
+        {
+          "timestamp": "2026-05-12T17:09:17.322Z",
+          "value": 114.85
+        },
+        {
+          "timestamp": "2026-05-16T00:46:44.289Z",
+          "value": 113.54
+        },
+        {
+          "timestamp": "2026-05-19T08:59:07.525Z",
+          "value": 110.24
+        },
+        {
+          "timestamp": "2026-05-22T18:42:14.076Z",
+          "value": 105.36
+        },
+        {
+          "timestamp": "2026-05-26T01:21:00.187Z",
+          "value": 106.74
+        },
+        {
+          "timestamp": "2026-05-29T10:38:59.578Z",
+          "value": 101.91
+        },
+        {
+          "timestamp": "2026-06-01T18:47:16.653Z",
+          "value": 104.71
+        },
+        {
+          "timestamp": "2026-06-05T03:20:14.512Z",
+          "value": 109.13
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 112.12
+        }
+      ],
+      "createdAt": "2023-01-07T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-015",
+      "assetId": "ast-013",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 86.15
+        },
+        {
+          "timestamp": "2026-05-12T17:09:17.322Z",
+          "value": 102.98
+        },
+        {
+          "timestamp": "2026-05-16T00:46:44.289Z",
+          "value": 86.14
+        },
+        {
+          "timestamp": "2026-05-19T08:59:07.525Z",
+          "value": 86.48
+        },
+        {
+          "timestamp": "2026-05-22T18:42:14.076Z",
+          "value": 82.2
+        },
+        {
+          "timestamp": "2026-05-26T01:21:00.187Z",
+          "value": 79.04
+        },
+        {
+          "timestamp": "2026-05-29T10:38:59.578Z",
+          "value": 82.19
+        },
+        {
+          "timestamp": "2026-06-01T18:47:16.653Z",
+          "value": 90.89
+        },
+        {
+          "timestamp": "2026-06-05T03:20:14.512Z",
+          "value": 81.28
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 93.92
+        }
+      ],
+      "createdAt": "2023-01-07T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-017",
+      "assetId": "ast-016",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 112.12
+        },
+        {
+          "timestamp": "2026-05-12T18:17:40.655Z",
+          "value": 111.24
+        },
+        {
+          "timestamp": "2026-05-16T03:26:00.084Z",
+          "value": 107.58
+        },
+        {
+          "timestamp": "2026-05-19T11:04:49.325Z",
+          "value": 101.92
+        },
+        {
+          "timestamp": "2026-05-22T17:35:10.833Z",
+          "value": 101.67
+        },
+        {
+          "timestamp": "2026-05-26T02:15:14.417Z",
+          "value": 96.74
+        },
+        {
+          "timestamp": "2026-05-29T11:20:28.303Z",
+          "value": 123.27
+        },
+        {
+          "timestamp": "2026-06-01T17:58:34.304Z",
+          "value": 95.64
+        },
+        {
+          "timestamp": "2026-06-05T02:39:19.503Z",
+          "value": 94.89
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 98.31
+        }
+      ],
+      "createdAt": "2023-03-05T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-018",
+      "assetId": "ast-016",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 86.75
+        },
+        {
+          "timestamp": "2026-05-12T18:17:40.655Z",
+          "value": 83.9
+        },
+        {
+          "timestamp": "2026-05-16T03:26:00.084Z",
+          "value": 84.37
+        },
+        {
+          "timestamp": "2026-05-19T11:04:49.325Z",
+          "value": 82.33
+        },
+        {
+          "timestamp": "2026-05-22T17:35:10.833Z",
+          "value": 84.02
+        },
+        {
+          "timestamp": "2026-05-26T02:15:14.417Z",
+          "value": 84.95
+        },
+        {
+          "timestamp": "2026-05-29T11:20:28.303Z",
+          "value": 81.42
+        },
+        {
+          "timestamp": "2026-06-01T17:58:34.304Z",
+          "value": 84.32
+        },
+        {
+          "timestamp": "2026-06-05T02:39:19.503Z",
+          "value": 82.97
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 82.88
+        }
+      ],
+      "createdAt": "2023-03-05T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-020",
+      "assetId": "ast-019",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 113.24
+        },
+        {
+          "timestamp": "2026-05-12T18:30:18.206Z",
+          "value": 114.77
+        },
+        {
+          "timestamp": "2026-05-16T02:49:03.460Z",
+          "value": 118.58
+        },
+        {
+          "timestamp": "2026-05-19T10:29:58.792Z",
+          "value": 121.18
+        },
+        {
+          "timestamp": "2026-05-22T17:49:34.805Z",
+          "value": 124
+        },
+        {
+          "timestamp": "2026-05-26T01:47:39.207Z",
+          "value": 145.98,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-05-29T11:08:42.359Z",
+          "value": 127.99
+        },
+        {
+          "timestamp": "2026-06-01T18:52:42.868Z",
+          "value": 127.88
+        },
+        {
+          "timestamp": "2026-06-05T01:37:35.820Z",
+          "value": 128.44
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 134.14,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2022-05-11T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-021",
+      "assetId": "ast-019",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 87.88
+        },
+        {
+          "timestamp": "2026-05-12T18:30:18.206Z",
+          "value": 92.81
+        },
+        {
+          "timestamp": "2026-05-16T02:49:03.460Z",
+          "value": 88.4
+        },
+        {
+          "timestamp": "2026-05-19T10:29:58.792Z",
+          "value": 102.96
+        },
+        {
+          "timestamp": "2026-05-22T17:49:34.805Z",
+          "value": 89.45
+        },
+        {
+          "timestamp": "2026-05-26T01:47:39.207Z",
+          "value": 89.26
+        },
+        {
+          "timestamp": "2026-05-29T11:08:42.359Z",
+          "value": 85.39
+        },
+        {
+          "timestamp": "2026-06-01T18:52:42.868Z",
+          "value": 88.86
+        },
+        {
+          "timestamp": "2026-06-05T01:37:35.820Z",
+          "value": 88.38
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 100.88
+        }
+      ],
+      "createdAt": "2022-05-11T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-023",
+      "assetId": "ast-022",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 109.44
+        },
+        {
+          "timestamp": "2026-05-12T17:15:53.140Z",
+          "value": 113.9
+        },
+        {
+          "timestamp": "2026-05-16T02:29:03.228Z",
+          "value": 119.09
+        },
+        {
+          "timestamp": "2026-05-19T09:25:27.085Z",
+          "value": 117.38
+        },
+        {
+          "timestamp": "2026-05-22T16:43:58.575Z",
+          "value": 121.91
+        },
+        {
+          "timestamp": "2026-05-26T02:13:47.104Z",
+          "value": 122.16
+        },
+        {
+          "timestamp": "2026-05-29T10:49:38.366Z",
+          "value": 154.28,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-01T18:15:46.630Z",
+          "value": 124.27
+        },
+        {
+          "timestamp": "2026-06-05T01:41:20.783Z",
+          "value": 120.3
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 114.7
+        }
+      ],
+      "createdAt": "2022-05-18T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-024",
+      "assetId": "ast-022",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 85.86
+        },
+        {
+          "timestamp": "2026-05-12T17:15:53.140Z",
+          "value": 83.15
+        },
+        {
+          "timestamp": "2026-05-16T02:29:03.228Z",
+          "value": 80.84
+        },
+        {
+          "timestamp": "2026-05-19T09:25:27.085Z",
+          "value": 83.24
+        },
+        {
+          "timestamp": "2026-05-22T16:43:58.575Z",
+          "value": 87.19
+        },
+        {
+          "timestamp": "2026-05-26T02:13:47.104Z",
+          "value": 87.64
+        },
+        {
+          "timestamp": "2026-05-29T10:49:38.366Z",
+          "value": 84.76
+        },
+        {
+          "timestamp": "2026-06-01T18:15:46.630Z",
+          "value": 86.95
+        },
+        {
+          "timestamp": "2026-06-05T01:41:20.783Z",
+          "value": 85.25
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 106.81
+        }
+      ],
+      "createdAt": "2022-05-18T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-026",
+      "assetId": "ast-025",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 118.77
+        },
+        {
+          "timestamp": "2026-05-12T18:57:57.154Z",
+          "value": 115.71
+        },
+        {
+          "timestamp": "2026-05-16T01:13:12.821Z",
+          "value": 119.06
+        },
+        {
+          "timestamp": "2026-05-19T08:52:31.464Z",
+          "value": 120.33
+        },
+        {
+          "timestamp": "2026-05-22T18:21:06.808Z",
+          "value": 115.66
+        },
+        {
+          "timestamp": "2026-05-26T00:52:51.617Z",
+          "value": 117.27
+        },
+        {
+          "timestamp": "2026-05-29T09:37:58.143Z",
+          "value": 120.86
+        },
+        {
+          "timestamp": "2026-06-01T19:13:18.925Z",
+          "value": 120.93
+        },
+        {
+          "timestamp": "2026-06-05T01:00:10.530Z",
+          "value": 121.67
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 118.62
+        }
+      ],
+      "createdAt": "2019-08-23T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-027",
+      "assetId": "ast-025",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 87.98
+        },
+        {
+          "timestamp": "2026-05-12T18:57:57.154Z",
+          "value": 90.26
+        },
+        {
+          "timestamp": "2026-05-16T01:13:12.821Z",
+          "value": 91.12
+        },
+        {
+          "timestamp": "2026-05-19T08:52:31.464Z",
+          "value": 99.6
+        },
+        {
+          "timestamp": "2026-05-22T18:21:06.808Z",
+          "value": 85.51
+        },
+        {
+          "timestamp": "2026-05-26T00:52:51.617Z",
+          "value": 83.63
+        },
+        {
+          "timestamp": "2026-05-29T09:37:58.143Z",
+          "value": 82.58
+        },
+        {
+          "timestamp": "2026-06-01T19:13:18.925Z",
+          "value": 77.62
+        },
+        {
+          "timestamp": "2026-06-05T01:00:10.530Z",
+          "value": 81.71
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 83.42
+        }
+      ],
+      "createdAt": "2019-08-23T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-029",
+      "assetId": "ast-028",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 118.04
+        },
+        {
+          "timestamp": "2026-05-12T18:24:44.942Z",
+          "value": 120.5
+        },
+        {
+          "timestamp": "2026-05-16T01:56:30.773Z",
+          "value": 114.89
+        },
+        {
+          "timestamp": "2026-05-19T09:14:52.768Z",
+          "value": 114.37
+        },
+        {
+          "timestamp": "2026-05-22T17:57:24.692Z",
+          "value": 115.27
+        },
+        {
+          "timestamp": "2026-05-26T02:45:06.262Z",
+          "value": 116.72
+        },
+        {
+          "timestamp": "2026-05-29T11:19:19.763Z",
+          "value": 142.09,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-01T18:42:36.228Z",
+          "value": 122.81
+        },
+        {
+          "timestamp": "2026-06-05T02:28:34.249Z",
+          "value": 124.34
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 129.65
+        }
+      ],
+      "createdAt": "2019-11-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-030",
+      "assetId": "ast-028",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 87.35
+        },
+        {
+          "timestamp": "2026-05-12T18:24:44.942Z",
+          "value": 89.84
+        },
+        {
+          "timestamp": "2026-05-16T01:56:30.773Z",
+          "value": 93.26
+        },
+        {
+          "timestamp": "2026-05-19T09:14:52.768Z",
+          "value": 91.18
+        },
+        {
+          "timestamp": "2026-05-22T17:57:24.692Z",
+          "value": 91.43
+        },
+        {
+          "timestamp": "2026-05-26T02:45:06.262Z",
+          "value": 97.42
+        },
+        {
+          "timestamp": "2026-05-29T11:19:19.763Z",
+          "value": 89.55
+        },
+        {
+          "timestamp": "2026-06-01T18:42:36.228Z",
+          "value": 89.04
+        },
+        {
+          "timestamp": "2026-06-05T02:28:34.249Z",
+          "value": 84.49
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 83.81
+        }
+      ],
+      "createdAt": "2019-11-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-032",
+      "assetId": "ast-031",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 44.59
+        },
+        {
+          "timestamp": "2026-05-12T17:44:07.912Z",
+          "value": 52.28
+        },
+        {
+          "timestamp": "2026-05-16T01:58:31.871Z",
+          "value": 40.56
+        },
+        {
+          "timestamp": "2026-05-19T11:25:14.719Z",
+          "value": 38.21
+        },
+        {
+          "timestamp": "2026-05-22T18:02:20.245Z",
+          "value": 37.61
+        },
+        {
+          "timestamp": "2026-05-26T02:17:14.859Z",
+          "value": 44.96
+        },
+        {
+          "timestamp": "2026-05-29T10:36:30.984Z",
+          "value": 38.26
+        },
+        {
+          "timestamp": "2026-06-01T17:28:51.835Z",
+          "value": 41.64
+        },
+        {
+          "timestamp": "2026-06-05T01:57:58.344Z",
+          "value": 40.48
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 38.22,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2020-06-26T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-033",
+      "assetId": "ast-031",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 64.18
+        },
+        {
+          "timestamp": "2026-05-12T17:44:07.912Z",
+          "value": 64.54
+        },
+        {
+          "timestamp": "2026-05-16T01:58:31.871Z",
+          "value": 62.13
+        },
+        {
+          "timestamp": "2026-05-19T11:25:14.719Z",
+          "value": 80.86
+        },
+        {
+          "timestamp": "2026-05-22T18:02:20.245Z",
+          "value": 59.87
+        },
+        {
+          "timestamp": "2026-05-26T02:17:14.859Z",
+          "value": 62.21
+        },
+        {
+          "timestamp": "2026-05-29T10:36:30.984Z",
+          "value": 63.75
+        },
+        {
+          "timestamp": "2026-06-01T17:28:51.835Z",
+          "value": 62.71
+        },
+        {
+          "timestamp": "2026-06-05T01:57:58.344Z",
+          "value": 66.74
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 70.98,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2020-06-26T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-035",
+      "assetId": "ast-034",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 42.48
+        },
+        {
+          "timestamp": "2026-05-12T17:24:26.813Z",
+          "value": 42.13
+        },
+        {
+          "timestamp": "2026-05-16T02:25:19.745Z",
+          "value": 39.88
+        },
+        {
+          "timestamp": "2026-05-19T11:26:30.947Z",
+          "value": 41.96
+        },
+        {
+          "timestamp": "2026-05-22T16:39:13.480Z",
+          "value": 42.22
+        },
+        {
+          "timestamp": "2026-05-26T01:33:07.216Z",
+          "value": 39.93
+        },
+        {
+          "timestamp": "2026-05-29T09:34:22.155Z",
+          "value": 39.8
+        },
+        {
+          "timestamp": "2026-06-01T19:01:36.244Z",
+          "value": 40.1
+        },
+        {
+          "timestamp": "2026-06-05T03:06:19.939Z",
+          "value": 40.3
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 39.51
+        }
+      ],
+      "createdAt": "2022-06-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-036",
+      "assetId": "ast-034",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 66.1
+        },
+        {
+          "timestamp": "2026-05-12T17:24:26.813Z",
+          "value": 64.64
+        },
+        {
+          "timestamp": "2026-05-16T02:25:19.745Z",
+          "value": 68.62
+        },
+        {
+          "timestamp": "2026-05-19T11:26:30.947Z",
+          "value": 70.61
+        },
+        {
+          "timestamp": "2026-05-22T16:39:13.480Z",
+          "value": 66.92
+        },
+        {
+          "timestamp": "2026-05-26T01:33:07.216Z",
+          "value": 70.86
+        },
+        {
+          "timestamp": "2026-05-29T09:34:22.155Z",
+          "value": 74.04
+        },
+        {
+          "timestamp": "2026-06-01T19:01:36.244Z",
+          "value": 73.62
+        },
+        {
+          "timestamp": "2026-06-05T03:06:19.939Z",
+          "value": 73.11
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 69.21
+        }
+      ],
+      "createdAt": "2022-06-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-038",
+      "assetId": "ast-037",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 42.84
+        },
+        {
+          "timestamp": "2026-05-12T18:37:43.353Z",
+          "value": 42.63
+        },
+        {
+          "timestamp": "2026-05-16T01:21:41.533Z",
+          "value": 40.16
+        },
+        {
+          "timestamp": "2026-05-19T09:02:46.066Z",
+          "value": 39
+        },
+        {
+          "timestamp": "2026-05-22T17:17:38.377Z",
+          "value": 36.38
+        },
+        {
+          "timestamp": "2026-05-26T01:21:07.854Z",
+          "value": 36.32
+        },
+        {
+          "timestamp": "2026-05-29T10:09:32.571Z",
+          "value": 39.01
+        },
+        {
+          "timestamp": "2026-06-01T19:05:13.828Z",
+          "value": 37.16
+        },
+        {
+          "timestamp": "2026-06-05T01:45:56.072Z",
+          "value": 35.34
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 36.75
+        }
+      ],
+      "createdAt": "2019-01-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-039",
+      "assetId": "ast-037",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 75.01
+        },
+        {
+          "timestamp": "2026-05-12T18:37:43.353Z",
+          "value": 60.81
+        },
+        {
+          "timestamp": "2026-05-16T01:21:41.533Z",
+          "value": 57.89
+        },
+        {
+          "timestamp": "2026-05-19T09:02:46.066Z",
+          "value": 63.62
+        },
+        {
+          "timestamp": "2026-05-22T17:17:38.377Z",
+          "value": 55.62
+        },
+        {
+          "timestamp": "2026-05-26T01:21:07.854Z",
+          "value": 58.08
+        },
+        {
+          "timestamp": "2026-05-29T10:09:32.571Z",
+          "value": 57.17
+        },
+        {
+          "timestamp": "2026-06-01T19:05:13.828Z",
+          "value": 55.18
+        },
+        {
+          "timestamp": "2026-06-05T01:45:56.072Z",
+          "value": 57.32
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 54.49
+        }
+      ],
+      "createdAt": "2019-01-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-041",
+      "assetId": "ast-040",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 40.51
+        },
+        {
+          "timestamp": "2026-05-12T16:52:42.898Z",
+          "value": 40.3
+        },
+        {
+          "timestamp": "2026-05-16T03:08:56.869Z",
+          "value": 42.27
+        },
+        {
+          "timestamp": "2026-05-19T09:37:09.047Z",
+          "value": 44.37
+        },
+        {
+          "timestamp": "2026-05-22T19:26:03.782Z",
+          "value": 43.53
+        },
+        {
+          "timestamp": "2026-05-26T03:05:45.395Z",
+          "value": 43.03
+        },
+        {
+          "timestamp": "2026-05-29T09:43:51.199Z",
+          "value": 46.13
+        },
+        {
+          "timestamp": "2026-06-01T16:51:03.374Z",
+          "value": 47.53
+        },
+        {
+          "timestamp": "2026-06-05T01:19:34.157Z",
+          "value": 49.74
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 48.64
+        }
+      ],
+      "createdAt": "2022-08-27T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-042",
+      "assetId": "ast-040",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 65.43
+        },
+        {
+          "timestamp": "2026-05-12T16:52:42.898Z",
+          "value": 63.51
+        },
+        {
+          "timestamp": "2026-05-16T03:08:56.869Z",
+          "value": 64.15
+        },
+        {
+          "timestamp": "2026-05-19T09:37:09.047Z",
+          "value": 61.69
+        },
+        {
+          "timestamp": "2026-05-22T19:26:03.782Z",
+          "value": 59.75
+        },
+        {
+          "timestamp": "2026-05-26T03:05:45.395Z",
+          "value": 75.01
+        },
+        {
+          "timestamp": "2026-05-29T09:43:51.199Z",
+          "value": 63.92
+        },
+        {
+          "timestamp": "2026-06-01T16:51:03.374Z",
+          "value": 60.82
+        },
+        {
+          "timestamp": "2026-06-05T01:19:34.157Z",
+          "value": 59.05
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 71.17
+        }
+      ],
+      "createdAt": "2022-08-27T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-044",
+      "assetId": "ast-043",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 41.77
+        },
+        {
+          "timestamp": "2026-05-12T17:14:11.157Z",
+          "value": 43.57
+        },
+        {
+          "timestamp": "2026-05-16T01:01:46.166Z",
+          "value": 41.78
+        },
+        {
+          "timestamp": "2026-05-19T09:19:59.054Z",
+          "value": 53.77
+        },
+        {
+          "timestamp": "2026-05-22T16:45:28.456Z",
+          "value": 44.42
+        },
+        {
+          "timestamp": "2026-05-26T02:00:59.714Z",
+          "value": 46.09
+        },
+        {
+          "timestamp": "2026-05-29T09:24:06.323Z",
+          "value": 45.82
+        },
+        {
+          "timestamp": "2026-06-01T17:58:43.657Z",
+          "value": 45.54
+        },
+        {
+          "timestamp": "2026-06-05T02:25:03.527Z",
+          "value": 45.82
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 48.2
+        }
+      ],
+      "createdAt": "2019-07-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-045",
+      "assetId": "ast-043",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 66.45
+        },
+        {
+          "timestamp": "2026-05-12T17:14:11.157Z",
+          "value": 68.77
+        },
+        {
+          "timestamp": "2026-05-16T01:01:46.166Z",
+          "value": 67.7
+        },
+        {
+          "timestamp": "2026-05-19T09:19:59.054Z",
+          "value": 65.35
+        },
+        {
+          "timestamp": "2026-05-22T16:45:28.456Z",
+          "value": 68.11
+        },
+        {
+          "timestamp": "2026-05-26T02:00:59.714Z",
+          "value": 65.68
+        },
+        {
+          "timestamp": "2026-05-29T09:24:06.323Z",
+          "value": 66.95
+        },
+        {
+          "timestamp": "2026-06-01T17:58:43.657Z",
+          "value": 70.18
+        },
+        {
+          "timestamp": "2026-06-05T02:25:03.527Z",
+          "value": 70.42
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 71.49
+        }
+      ],
+      "createdAt": "2019-07-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-047",
+      "assetId": "ast-046",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 37.89
+        },
+        {
+          "timestamp": "2026-05-12T17:13:48.577Z",
+          "value": 40.35
+        },
+        {
+          "timestamp": "2026-05-16T03:26:13.681Z",
+          "value": 37.6
+        },
+        {
+          "timestamp": "2026-05-19T11:19:00.088Z",
+          "value": 35.75
+        },
+        {
+          "timestamp": "2026-05-22T19:09:10.473Z",
+          "value": 32.88
+        },
+        {
+          "timestamp": "2026-05-26T02:23:41.301Z",
+          "value": 30.25
+        },
+        {
+          "timestamp": "2026-05-29T10:01:02.684Z",
+          "value": 29.2
+        },
+        {
+          "timestamp": "2026-06-01T17:38:43.328Z",
+          "value": 31.81
+        },
+        {
+          "timestamp": "2026-06-05T01:21:44.910Z",
+          "value": 32.46
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 30.52
+        }
+      ],
+      "createdAt": "2021-06-17T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-048",
+      "assetId": "ast-046",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 61.92
+        },
+        {
+          "timestamp": "2026-05-12T17:13:48.577Z",
+          "value": 60.62
+        },
+        {
+          "timestamp": "2026-05-16T03:26:13.681Z",
+          "value": 58.5
+        },
+        {
+          "timestamp": "2026-05-19T11:19:00.088Z",
+          "value": 59.53
+        },
+        {
+          "timestamp": "2026-05-22T19:09:10.473Z",
+          "value": 60.62
+        },
+        {
+          "timestamp": "2026-05-26T02:23:41.301Z",
+          "value": 61.25
+        },
+        {
+          "timestamp": "2026-05-29T10:01:02.684Z",
+          "value": 79.15
+        },
+        {
+          "timestamp": "2026-06-01T17:38:43.328Z",
+          "value": 58.44
+        },
+        {
+          "timestamp": "2026-06-05T01:21:44.910Z",
+          "value": 56.21
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 55.5
+        }
+      ],
+      "createdAt": "2021-06-17T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-050",
+      "assetId": "ast-049",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 41.89
+        },
+        {
+          "timestamp": "2026-05-12T16:30:06.632Z",
+          "value": 43.4
+        },
+        {
+          "timestamp": "2026-05-16T02:32:01.772Z",
+          "value": 47.14
+        },
+        {
+          "timestamp": "2026-05-19T09:35:51.874Z",
+          "value": 38.03
+        },
+        {
+          "timestamp": "2026-05-22T19:02:13.304Z",
+          "value": 36.29
+        },
+        {
+          "timestamp": "2026-05-26T03:12:04.219Z",
+          "value": 36.75
+        },
+        {
+          "timestamp": "2026-05-29T09:51:30.612Z",
+          "value": 36.62
+        },
+        {
+          "timestamp": "2026-06-01T17:05:32.690Z",
+          "value": 38.44
+        },
+        {
+          "timestamp": "2026-06-05T00:37:27.135Z",
+          "value": 47.9
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 41.19
+        }
+      ],
+      "createdAt": "2022-10-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-051",
+      "assetId": "ast-049",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 62.23
+        },
+        {
+          "timestamp": "2026-05-12T16:30:06.632Z",
+          "value": 65.96
+        },
+        {
+          "timestamp": "2026-05-16T02:32:01.772Z",
+          "value": 62.81
+        },
+        {
+          "timestamp": "2026-05-19T09:35:51.874Z",
+          "value": 63.27
+        },
+        {
+          "timestamp": "2026-05-22T19:02:13.304Z",
+          "value": 60.52
+        },
+        {
+          "timestamp": "2026-05-26T03:12:04.219Z",
+          "value": 58.44
+        },
+        {
+          "timestamp": "2026-05-29T09:51:30.612Z",
+          "value": 56.18
+        },
+        {
+          "timestamp": "2026-06-01T17:05:32.690Z",
+          "value": 55.58
+        },
+        {
+          "timestamp": "2026-06-05T00:37:27.135Z",
+          "value": 59.46
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 60.78
+        }
+      ],
+      "createdAt": "2022-10-29T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-053",
+      "assetId": "ast-052",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 42.02
+        },
+        {
+          "timestamp": "2026-05-12T17:57:04.669Z",
+          "value": 43.75
+        },
+        {
+          "timestamp": "2026-05-16T02:53:39.270Z",
+          "value": 42.35
+        },
+        {
+          "timestamp": "2026-05-19T08:32:38.860Z",
+          "value": 43.96
+        },
+        {
+          "timestamp": "2026-05-22T18:39:11.689Z",
+          "value": 43.74
+        },
+        {
+          "timestamp": "2026-05-26T00:49:25.537Z",
+          "value": 46.06
+        },
+        {
+          "timestamp": "2026-05-29T08:53:03.980Z",
+          "value": 46.75
+        },
+        {
+          "timestamp": "2026-06-01T19:17:22.965Z",
+          "value": 48.45
+        },
+        {
+          "timestamp": "2026-06-05T01:46:04.946Z",
+          "value": 48.88
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 46.01
+        }
+      ],
+      "createdAt": "2020-01-12T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-054",
+      "assetId": "ast-052",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 68.9
+        },
+        {
+          "timestamp": "2026-05-12T17:57:04.669Z",
+          "value": 69.44
+        },
+        {
+          "timestamp": "2026-05-16T02:53:39.270Z",
+          "value": 66.3
+        },
+        {
+          "timestamp": "2026-05-19T08:32:38.860Z",
+          "value": 67.11
+        },
+        {
+          "timestamp": "2026-05-22T18:39:11.689Z",
+          "value": 64.67
+        },
+        {
+          "timestamp": "2026-05-26T00:49:25.537Z",
+          "value": 66.97
+        },
+        {
+          "timestamp": "2026-05-29T08:53:03.980Z",
+          "value": 65.55
+        },
+        {
+          "timestamp": "2026-06-01T19:17:22.965Z",
+          "value": 64.89
+        },
+        {
+          "timestamp": "2026-06-05T01:46:04.946Z",
+          "value": 68.19
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 69.89
+        }
+      ],
+      "createdAt": "2020-01-12T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-056",
+      "assetId": "ast-055",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 42.68
+        },
+        {
+          "timestamp": "2026-05-12T18:44:23.505Z",
+          "value": 41.77
+        },
+        {
+          "timestamp": "2026-05-16T01:49:51.368Z",
+          "value": 45
+        },
+        {
+          "timestamp": "2026-05-19T08:49:09.786Z",
+          "value": 47
+        },
+        {
+          "timestamp": "2026-05-22T19:22:54.517Z",
+          "value": 50.57
+        },
+        {
+          "timestamp": "2026-05-26T00:33:47.088Z",
+          "value": 53.6
+        },
+        {
+          "timestamp": "2026-05-29T08:35:13.224Z",
+          "value": 57.2,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-01T19:16:06.883Z",
+          "value": 61.93,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-05T01:41:40.746Z",
+          "value": 69.67,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 56.19,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2020-04-19T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-057",
+      "assetId": "ast-055",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 65.37
+        },
+        {
+          "timestamp": "2026-05-12T18:44:23.505Z",
+          "value": 68.58
+        },
+        {
+          "timestamp": "2026-05-16T01:49:51.368Z",
+          "value": 69.28
+        },
+        {
+          "timestamp": "2026-05-19T08:49:09.786Z",
+          "value": 69.8
+        },
+        {
+          "timestamp": "2026-05-22T19:22:54.517Z",
+          "value": 67.35
+        },
+        {
+          "timestamp": "2026-05-26T00:33:47.088Z",
+          "value": 64.06
+        },
+        {
+          "timestamp": "2026-05-29T08:35:13.224Z",
+          "value": 66.75
+        },
+        {
+          "timestamp": "2026-06-01T19:16:06.883Z",
+          "value": 70.48
+        },
+        {
+          "timestamp": "2026-06-05T01:41:40.746Z",
+          "value": 69.55
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 71.11,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2020-04-19T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-059",
+      "assetId": "ast-058",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 39.11
+        },
+        {
+          "timestamp": "2026-05-12T18:12:35.307Z",
+          "value": 41.88
+        },
+        {
+          "timestamp": "2026-05-16T01:26:59.986Z",
+          "value": 42.6
+        },
+        {
+          "timestamp": "2026-05-19T08:50:09.698Z",
+          "value": 45.29
+        },
+        {
+          "timestamp": "2026-05-22T18:54:47.517Z",
+          "value": 47.36
+        },
+        {
+          "timestamp": "2026-05-26T03:04:54.670Z",
+          "value": 49.12
+        },
+        {
+          "timestamp": "2026-05-29T08:47:08.656Z",
+          "value": 51.91
+        },
+        {
+          "timestamp": "2026-06-01T17:20:35.084Z",
+          "value": 57.36,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-05T02:44:04.950Z",
+          "value": 50.01
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 52.2
+        }
+      ],
+      "createdAt": "2020-12-28T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-060",
+      "assetId": "ast-058",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 66.38
+        },
+        {
+          "timestamp": "2026-05-12T18:12:35.307Z",
+          "value": 65.14
+        },
+        {
+          "timestamp": "2026-05-16T01:26:59.986Z",
+          "value": 62.03
+        },
+        {
+          "timestamp": "2026-05-19T08:50:09.698Z",
+          "value": 64.52
+        },
+        {
+          "timestamp": "2026-05-22T18:54:47.517Z",
+          "value": 61.37
+        },
+        {
+          "timestamp": "2026-05-26T03:04:54.670Z",
+          "value": 60.33
+        },
+        {
+          "timestamp": "2026-05-29T08:47:08.656Z",
+          "value": 63.43
+        },
+        {
+          "timestamp": "2026-06-01T17:20:35.084Z",
+          "value": 65.86
+        },
+        {
+          "timestamp": "2026-06-05T02:44:04.950Z",
+          "value": 74.22
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 67.55
+        }
+      ],
+      "createdAt": "2020-12-28T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-062",
+      "assetId": "ast-061",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 40.17
+        },
+        {
+          "timestamp": "2026-05-12T18:00:42.608Z",
+          "value": 37.74
+        },
+        {
+          "timestamp": "2026-05-16T01:23:35.659Z",
+          "value": 37.85
+        },
+        {
+          "timestamp": "2026-05-19T11:20:44.508Z",
+          "value": 37.97
+        },
+        {
+          "timestamp": "2026-05-22T18:06:53.499Z",
+          "value": 38.54
+        },
+        {
+          "timestamp": "2026-05-26T00:51:54.601Z",
+          "value": 37.82
+        },
+        {
+          "timestamp": "2026-05-29T09:33:23.971Z",
+          "value": 38.54
+        },
+        {
+          "timestamp": "2026-06-01T16:40:09.290Z",
+          "value": 39.12
+        },
+        {
+          "timestamp": "2026-06-05T01:10:53.261Z",
+          "value": 36.34
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 38.51
+        }
+      ],
+      "createdAt": "2021-01-04T00:00:00.000Z",
+      "updatedAt": "2021-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "ts-063",
+      "assetId": "ast-061",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 65.72
+        },
+        {
+          "timestamp": "2026-05-12T18:00:42.608Z",
+          "value": 68.39
+        },
+        {
+          "timestamp": "2026-05-16T01:23:35.659Z",
+          "value": 70.61
+        },
+        {
+          "timestamp": "2026-05-19T11:20:44.508Z",
+          "value": 74.57
+        },
+        {
+          "timestamp": "2026-05-22T18:06:53.499Z",
+          "value": 76.25
+        },
+        {
+          "timestamp": "2026-05-26T00:51:54.601Z",
+          "value": 75.75
+        },
+        {
+          "timestamp": "2026-05-29T09:33:23.971Z",
+          "value": 79.06
+        },
+        {
+          "timestamp": "2026-06-01T16:40:09.290Z",
+          "value": 78.74
+        },
+        {
+          "timestamp": "2026-06-05T01:10:53.261Z",
+          "value": 89.83,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 84.77
+        }
+      ],
+      "createdAt": "2021-01-04T00:00:00.000Z",
+      "updatedAt": "2021-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "ts-065",
+      "assetId": "ast-064",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 39.2
+        },
+        {
+          "timestamp": "2026-05-12T17:37:33.706Z",
+          "value": 44.76
+        },
+        {
+          "timestamp": "2026-05-16T00:56:47.468Z",
+          "value": 47.87
+        },
+        {
+          "timestamp": "2026-05-19T08:56:49.918Z",
+          "value": 38.88
+        },
+        {
+          "timestamp": "2026-05-22T17:39:15.254Z",
+          "value": 36.97
+        },
+        {
+          "timestamp": "2026-05-26T01:58:01.283Z",
+          "value": 43.99
+        },
+        {
+          "timestamp": "2026-05-29T09:14:15.251Z",
+          "value": 36.34
+        },
+        {
+          "timestamp": "2026-06-01T17:49:56.862Z",
+          "value": 42.74
+        },
+        {
+          "timestamp": "2026-06-05T03:11:10.192Z",
+          "value": 35.81
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 35.67
+        }
+      ],
+      "createdAt": "2018-10-20T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-066",
+      "assetId": "ast-064",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 61.4
+        },
+        {
+          "timestamp": "2026-05-12T17:37:33.706Z",
+          "value": 61.88
+        },
+        {
+          "timestamp": "2026-05-16T00:56:47.468Z",
+          "value": 59.01
+        },
+        {
+          "timestamp": "2026-05-19T08:56:49.918Z",
+          "value": 72.31
+        },
+        {
+          "timestamp": "2026-05-22T17:39:15.254Z",
+          "value": 62.3
+        },
+        {
+          "timestamp": "2026-05-26T01:58:01.283Z",
+          "value": 63.63
+        },
+        {
+          "timestamp": "2026-05-29T09:14:15.251Z",
+          "value": 63.63
+        },
+        {
+          "timestamp": "2026-06-01T17:49:56.862Z",
+          "value": 64.35
+        },
+        {
+          "timestamp": "2026-06-05T03:11:10.192Z",
+          "value": 67
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 67.1
+        }
+      ],
+      "createdAt": "2018-10-20T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-068",
+      "assetId": "ast-067",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 28.3
+        },
+        {
+          "timestamp": "2026-05-12T18:47:48.888Z",
+          "value": 26.41
+        },
+        {
+          "timestamp": "2026-05-16T01:23:57.801Z",
+          "value": 26.56
+        },
+        {
+          "timestamp": "2026-05-19T10:46:41.910Z",
+          "value": 23.03
+        },
+        {
+          "timestamp": "2026-05-22T17:06:01.843Z",
+          "value": 19.46
+        },
+        {
+          "timestamp": "2026-05-26T00:31:20.149Z",
+          "value": 18
+        },
+        {
+          "timestamp": "2026-05-29T09:12:57.520Z",
+          "value": 21.32
+        },
+        {
+          "timestamp": "2026-06-01T19:11:59.022Z",
+          "value": 18.6
+        },
+        {
+          "timestamp": "2026-06-05T02:39:02.896Z",
+          "value": 22.58
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 21.71
+        }
+      ],
+      "createdAt": "2021-06-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-069",
+      "assetId": "ast-067",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 57.31
+        },
+        {
+          "timestamp": "2026-05-12T18:47:48.888Z",
+          "value": 54.39
+        },
+        {
+          "timestamp": "2026-05-16T01:23:57.801Z",
+          "value": 52.61
+        },
+        {
+          "timestamp": "2026-05-19T10:46:41.910Z",
+          "value": 65.38
+        },
+        {
+          "timestamp": "2026-05-22T17:06:01.843Z",
+          "value": 58.94
+        },
+        {
+          "timestamp": "2026-05-26T00:31:20.149Z",
+          "value": 53.66
+        },
+        {
+          "timestamp": "2026-05-29T09:12:57.520Z",
+          "value": 50.62
+        },
+        {
+          "timestamp": "2026-06-01T19:11:59.022Z",
+          "value": 54.25
+        },
+        {
+          "timestamp": "2026-06-05T02:39:02.896Z",
+          "value": 58.32
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 54.71
+        }
+      ],
+      "createdAt": "2021-06-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-071",
+      "assetId": "ast-070",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.06
+        },
+        {
+          "timestamp": "2026-05-12T18:28:04.059Z",
+          "value": 31.93
+        },
+        {
+          "timestamp": "2026-05-16T01:37:21.074Z",
+          "value": 21.66
+        },
+        {
+          "timestamp": "2026-05-19T10:28:35.013Z",
+          "value": 22.1
+        },
+        {
+          "timestamp": "2026-05-22T18:20:50.765Z",
+          "value": 23.81
+        },
+        {
+          "timestamp": "2026-05-26T03:29:28.817Z",
+          "value": 24.65
+        },
+        {
+          "timestamp": "2026-05-29T10:03:32.426Z",
+          "value": 24.22
+        },
+        {
+          "timestamp": "2026-06-01T19:24:21.935Z",
+          "value": 23.14
+        },
+        {
+          "timestamp": "2026-06-05T01:10:47.347Z",
+          "value": 22.49
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 22.07
+        }
+      ],
+      "createdAt": "2021-08-17T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-072",
+      "assetId": "ast-070",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 60.98
+        },
+        {
+          "timestamp": "2026-05-12T18:28:04.059Z",
+          "value": 61.63
+        },
+        {
+          "timestamp": "2026-05-16T01:37:21.074Z",
+          "value": 59.9
+        },
+        {
+          "timestamp": "2026-05-19T10:28:35.013Z",
+          "value": 65.77
+        },
+        {
+          "timestamp": "2026-05-22T18:20:50.765Z",
+          "value": 75.82
+        },
+        {
+          "timestamp": "2026-05-26T03:29:28.817Z",
+          "value": 61.19
+        },
+        {
+          "timestamp": "2026-05-29T10:03:32.426Z",
+          "value": 65.53
+        },
+        {
+          "timestamp": "2026-06-01T19:24:21.935Z",
+          "value": 82.34,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-05T01:10:47.347Z",
+          "value": 70.79
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 79.49
+        }
+      ],
+      "createdAt": "2021-08-17T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-074",
+      "assetId": "ast-073",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 29.8
+        },
+        {
+          "timestamp": "2026-05-12T18:18:08.770Z",
+          "value": 29.48
+        },
+        {
+          "timestamp": "2026-05-16T02:53:52.635Z",
+          "value": 25.63
+        },
+        {
+          "timestamp": "2026-05-19T10:38:14.742Z",
+          "value": 25.35
+        },
+        {
+          "timestamp": "2026-05-22T18:34:51.710Z",
+          "value": 27.56
+        },
+        {
+          "timestamp": "2026-05-26T01:08:00.952Z",
+          "value": 31.37
+        },
+        {
+          "timestamp": "2026-05-29T10:36:20.404Z",
+          "value": 27.42
+        },
+        {
+          "timestamp": "2026-06-01T17:46:30.919Z",
+          "value": 26.45
+        },
+        {
+          "timestamp": "2026-06-05T02:15:35.817Z",
+          "value": 23.05
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 24.15
+        }
+      ],
+      "createdAt": "2019-08-08T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-075",
+      "assetId": "ast-073",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 56.9
+        },
+        {
+          "timestamp": "2026-05-12T18:18:08.770Z",
+          "value": 54.81
+        },
+        {
+          "timestamp": "2026-05-16T02:53:52.635Z",
+          "value": 56.93
+        },
+        {
+          "timestamp": "2026-05-19T10:38:14.742Z",
+          "value": 59.25
+        },
+        {
+          "timestamp": "2026-05-22T18:34:51.710Z",
+          "value": 58.66
+        },
+        {
+          "timestamp": "2026-05-26T01:08:00.952Z",
+          "value": 56.15
+        },
+        {
+          "timestamp": "2026-05-29T10:36:20.404Z",
+          "value": 50.61
+        },
+        {
+          "timestamp": "2026-06-01T17:46:30.919Z",
+          "value": 45.22
+        },
+        {
+          "timestamp": "2026-06-05T02:15:35.817Z",
+          "value": 50.47
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 56.06
+        }
+      ],
+      "createdAt": "2019-08-08T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-077",
+      "assetId": "ast-076",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 33.12
+        },
+        {
+          "timestamp": "2026-05-12T18:00:30.426Z",
+          "value": 35.65
+        },
+        {
+          "timestamp": "2026-05-16T03:07:19.224Z",
+          "value": 37.46
+        },
+        {
+          "timestamp": "2026-05-19T09:19:07.753Z",
+          "value": 35.21
+        },
+        {
+          "timestamp": "2026-05-22T19:16:28.323Z",
+          "value": 38.12
+        },
+        {
+          "timestamp": "2026-05-26T00:53:48.557Z",
+          "value": 36.97
+        },
+        {
+          "timestamp": "2026-05-29T11:12:28.161Z",
+          "value": 40.1
+        },
+        {
+          "timestamp": "2026-06-01T16:45:23.988Z",
+          "value": 39.62
+        },
+        {
+          "timestamp": "2026-06-05T01:12:15.602Z",
+          "value": 37.39
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 38.94
+        }
+      ],
+      "createdAt": "2018-07-11T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-078",
+      "assetId": "ast-076",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 58.33
+        },
+        {
+          "timestamp": "2026-05-12T18:00:30.426Z",
+          "value": 47.37
+        },
+        {
+          "timestamp": "2026-05-16T03:07:19.224Z",
+          "value": 41.7
+        },
+        {
+          "timestamp": "2026-05-19T09:19:07.753Z",
+          "value": 41.34
+        },
+        {
+          "timestamp": "2026-05-22T19:16:28.323Z",
+          "value": 40.2
+        },
+        {
+          "timestamp": "2026-05-26T00:53:48.557Z",
+          "value": 43.95
+        },
+        {
+          "timestamp": "2026-05-29T11:12:28.161Z",
+          "value": 46.18
+        },
+        {
+          "timestamp": "2026-06-01T16:45:23.988Z",
+          "value": 46.31
+        },
+        {
+          "timestamp": "2026-06-05T01:12:15.602Z",
+          "value": 41.46
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 53.02
+        }
+      ],
+      "createdAt": "2018-07-11T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-080",
+      "assetId": "ast-079",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 28.94
+        },
+        {
+          "timestamp": "2026-05-12T18:35:48.224Z",
+          "value": 27.4
+        },
+        {
+          "timestamp": "2026-05-16T03:22:23.609Z",
+          "value": 30.8
+        },
+        {
+          "timestamp": "2026-05-19T10:33:49.634Z",
+          "value": 40.67
+        },
+        {
+          "timestamp": "2026-05-22T18:30:13.118Z",
+          "value": 29.73
+        },
+        {
+          "timestamp": "2026-05-26T02:16:32.223Z",
+          "value": 31.67
+        },
+        {
+          "timestamp": "2026-05-29T10:51:53.833Z",
+          "value": 27.97
+        },
+        {
+          "timestamp": "2026-06-01T16:35:09.561Z",
+          "value": 30.86
+        },
+        {
+          "timestamp": "2026-06-05T00:50:41.139Z",
+          "value": 28.04
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 25.24
+        }
+      ],
+      "createdAt": "2019-05-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-081",
+      "assetId": "ast-079",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 50.49
+        },
+        {
+          "timestamp": "2026-05-12T18:35:48.224Z",
+          "value": 48.47
+        },
+        {
+          "timestamp": "2026-05-16T03:22:23.609Z",
+          "value": 51.63
+        },
+        {
+          "timestamp": "2026-05-19T10:33:49.634Z",
+          "value": 60.31
+        },
+        {
+          "timestamp": "2026-05-22T18:30:13.118Z",
+          "value": 57.46
+        },
+        {
+          "timestamp": "2026-05-26T02:16:32.223Z",
+          "value": 52.22
+        },
+        {
+          "timestamp": "2026-05-29T10:51:53.833Z",
+          "value": 55.13
+        },
+        {
+          "timestamp": "2026-06-01T16:35:09.561Z",
+          "value": 60.77
+        },
+        {
+          "timestamp": "2026-06-05T00:50:41.139Z",
+          "value": 64.5
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 65.16
+        }
+      ],
+      "createdAt": "2019-05-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-083",
+      "assetId": "ast-082",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.59
+        },
+        {
+          "timestamp": "2026-05-12T18:01:27.456Z",
+          "value": 24.36
+        },
+        {
+          "timestamp": "2026-05-16T01:33:06.444Z",
+          "value": 26.05
+        },
+        {
+          "timestamp": "2026-05-19T10:39:22.127Z",
+          "value": 22.8
+        },
+        {
+          "timestamp": "2026-05-22T17:55:37.938Z",
+          "value": 25.87
+        },
+        {
+          "timestamp": "2026-05-26T01:56:47.390Z",
+          "value": 21.73
+        },
+        {
+          "timestamp": "2026-05-29T11:23:49.874Z",
+          "value": 21.85
+        },
+        {
+          "timestamp": "2026-06-01T17:08:17.721Z",
+          "value": 24.88
+        },
+        {
+          "timestamp": "2026-06-05T02:43:50.521Z",
+          "value": 21.49
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 19.2
+        }
+      ],
+      "createdAt": "2022-11-14T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-084",
+      "assetId": "ast-082",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 59.25
+        },
+        {
+          "timestamp": "2026-05-12T18:01:27.456Z",
+          "value": 53.44
+        },
+        {
+          "timestamp": "2026-05-16T01:33:06.444Z",
+          "value": 49.46
+        },
+        {
+          "timestamp": "2026-05-19T10:39:22.127Z",
+          "value": 55.11
+        },
+        {
+          "timestamp": "2026-05-22T17:55:37.938Z",
+          "value": 54.87
+        },
+        {
+          "timestamp": "2026-05-26T01:56:47.390Z",
+          "value": 77.39
+        },
+        {
+          "timestamp": "2026-05-29T11:23:49.874Z",
+          "value": 53.01
+        },
+        {
+          "timestamp": "2026-06-01T17:08:17.721Z",
+          "value": 51.92
+        },
+        {
+          "timestamp": "2026-06-05T02:43:50.521Z",
+          "value": 48.35
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 47.86
+        }
+      ],
+      "createdAt": "2022-11-14T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-086",
+      "assetId": "ast-085",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 32.39
+        },
+        {
+          "timestamp": "2026-05-12T16:39:34.232Z",
+          "value": 43.15
+        },
+        {
+          "timestamp": "2026-05-16T03:08:42.196Z",
+          "value": 32.1
+        },
+        {
+          "timestamp": "2026-05-19T10:15:11.715Z",
+          "value": 41.87
+        },
+        {
+          "timestamp": "2026-05-22T19:28:44.612Z",
+          "value": 35.48
+        },
+        {
+          "timestamp": "2026-05-26T03:19:21.626Z",
+          "value": 35.51
+        },
+        {
+          "timestamp": "2026-05-29T10:10:41.264Z",
+          "value": 39.32
+        },
+        {
+          "timestamp": "2026-06-01T18:39:12.726Z",
+          "value": 37.56
+        },
+        {
+          "timestamp": "2026-06-05T03:21:07.096Z",
+          "value": 49.31,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 42.14,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2021-04-01T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-087",
+      "assetId": "ast-085",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 60.85
+        },
+        {
+          "timestamp": "2026-05-12T16:39:34.232Z",
+          "value": 50.49
+        },
+        {
+          "timestamp": "2026-05-16T03:08:42.196Z",
+          "value": 53.83
+        },
+        {
+          "timestamp": "2026-05-19T10:15:11.715Z",
+          "value": 53.03
+        },
+        {
+          "timestamp": "2026-05-22T19:28:44.612Z",
+          "value": 48.14
+        },
+        {
+          "timestamp": "2026-05-26T03:19:21.626Z",
+          "value": 53.92
+        },
+        {
+          "timestamp": "2026-05-29T10:10:41.264Z",
+          "value": 54.52
+        },
+        {
+          "timestamp": "2026-06-01T18:39:12.726Z",
+          "value": 60.56
+        },
+        {
+          "timestamp": "2026-06-05T03:21:07.096Z",
+          "value": 63.96
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 66.46,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2021-04-01T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-089",
+      "assetId": "ast-088",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 32.38
+        },
+        {
+          "timestamp": "2026-05-12T18:05:47.580Z",
+          "value": 30.87
+        },
+        {
+          "timestamp": "2026-05-16T00:49:10.811Z",
+          "value": 27.18
+        },
+        {
+          "timestamp": "2026-05-19T08:37:18.733Z",
+          "value": 25.09
+        },
+        {
+          "timestamp": "2026-05-22T17:24:01.591Z",
+          "value": 29.03
+        },
+        {
+          "timestamp": "2026-05-26T03:21:14.920Z",
+          "value": 27.3
+        },
+        {
+          "timestamp": "2026-05-29T08:41:29.735Z",
+          "value": 30.58
+        },
+        {
+          "timestamp": "2026-06-01T18:27:41.116Z",
+          "value": 29.19
+        },
+        {
+          "timestamp": "2026-06-05T01:50:30.021Z",
+          "value": 35.83
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 32.14
+        }
+      ],
+      "createdAt": "2021-12-23T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-090",
+      "assetId": "ast-088",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 60.45
+        },
+        {
+          "timestamp": "2026-05-12T18:05:47.580Z",
+          "value": 60.74
+        },
+        {
+          "timestamp": "2026-05-16T00:49:10.811Z",
+          "value": 56.4
+        },
+        {
+          "timestamp": "2026-05-19T08:37:18.733Z",
+          "value": 51.46
+        },
+        {
+          "timestamp": "2026-05-22T17:24:01.591Z",
+          "value": 62.11
+        },
+        {
+          "timestamp": "2026-05-26T03:21:14.920Z",
+          "value": 52.64
+        },
+        {
+          "timestamp": "2026-05-29T08:41:29.735Z",
+          "value": 49.41
+        },
+        {
+          "timestamp": "2026-06-01T18:27:41.116Z",
+          "value": 43.65
+        },
+        {
+          "timestamp": "2026-06-05T01:50:30.021Z",
+          "value": 40.08
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 44.54
+        }
+      ],
+      "createdAt": "2021-12-23T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-092",
+      "assetId": "ast-091",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 21.22
+        },
+        {
+          "timestamp": "2026-05-12T17:12:54.071Z",
+          "value": 21.31
+        },
+        {
+          "timestamp": "2026-05-16T02:46:53.237Z",
+          "value": 20.63
+        },
+        {
+          "timestamp": "2026-05-19T10:00:09.368Z",
+          "value": 21.79
+        },
+        {
+          "timestamp": "2026-05-22T16:49:53.455Z",
+          "value": 23.03
+        },
+        {
+          "timestamp": "2026-05-26T01:22:04.149Z",
+          "value": 23.24
+        },
+        {
+          "timestamp": "2026-05-29T10:33:24.566Z",
+          "value": 25.53
+        },
+        {
+          "timestamp": "2026-06-01T18:30:43.920Z",
+          "value": 23.33
+        },
+        {
+          "timestamp": "2026-06-05T00:38:39.964Z",
+          "value": 24.31
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 25.08
+        }
+      ],
+      "createdAt": "2019-12-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-093",
+      "assetId": "ast-091",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.06
+        },
+        {
+          "timestamp": "2026-05-12T17:12:54.071Z",
+          "value": 32.31
+        },
+        {
+          "timestamp": "2026-05-16T02:46:53.237Z",
+          "value": 30.51
+        },
+        {
+          "timestamp": "2026-05-19T10:00:09.368Z",
+          "value": 23.56
+        },
+        {
+          "timestamp": "2026-05-22T16:49:53.455Z",
+          "value": 22.08
+        },
+        {
+          "timestamp": "2026-05-26T01:22:04.149Z",
+          "value": 22.37
+        },
+        {
+          "timestamp": "2026-05-29T10:33:24.566Z",
+          "value": 23.43
+        },
+        {
+          "timestamp": "2026-06-01T18:30:43.920Z",
+          "value": 31.13
+        },
+        {
+          "timestamp": "2026-06-05T00:38:39.964Z",
+          "value": 24.71
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 24.11
+        }
+      ],
+      "createdAt": "2019-12-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-095",
+      "assetId": "ast-094",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 19.78
+        },
+        {
+          "timestamp": "2026-05-12T19:28:34.908Z",
+          "value": 20.09
+        },
+        {
+          "timestamp": "2026-05-16T03:12:23.753Z",
+          "value": 22.78
+        },
+        {
+          "timestamp": "2026-05-19T11:00:12.699Z",
+          "value": 19.63
+        },
+        {
+          "timestamp": "2026-05-22T18:48:43.261Z",
+          "value": 19.75
+        },
+        {
+          "timestamp": "2026-05-26T01:55:40.908Z",
+          "value": 19.59
+        },
+        {
+          "timestamp": "2026-05-29T08:52:09.174Z",
+          "value": 18.67
+        },
+        {
+          "timestamp": "2026-06-01T18:17:05.077Z",
+          "value": 22.48
+        },
+        {
+          "timestamp": "2026-06-05T02:53:06.245Z",
+          "value": 17.4
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 17.72
+        }
+      ],
+      "createdAt": "2019-01-24T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-096",
+      "assetId": "ast-094",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.85
+        },
+        {
+          "timestamp": "2026-05-12T19:28:34.908Z",
+          "value": 25.01
+        },
+        {
+          "timestamp": "2026-05-16T03:12:23.753Z",
+          "value": 23.73
+        },
+        {
+          "timestamp": "2026-05-19T11:00:12.699Z",
+          "value": 25.12
+        },
+        {
+          "timestamp": "2026-05-22T18:48:43.261Z",
+          "value": 26.42
+        },
+        {
+          "timestamp": "2026-05-26T01:55:40.908Z",
+          "value": 26.27
+        },
+        {
+          "timestamp": "2026-05-29T08:52:09.174Z",
+          "value": 28.22
+        },
+        {
+          "timestamp": "2026-06-01T18:17:05.077Z",
+          "value": 28.92
+        },
+        {
+          "timestamp": "2026-06-05T02:53:06.245Z",
+          "value": 28.31
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 26.49
+        }
+      ],
+      "createdAt": "2019-01-24T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-098",
+      "assetId": "ast-097",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 19.78
+        },
+        {
+          "timestamp": "2026-05-12T18:55:00.266Z",
+          "value": 18.92
+        },
+        {
+          "timestamp": "2026-05-16T02:51:52.128Z",
+          "value": 18
+        },
+        {
+          "timestamp": "2026-05-19T09:41:23.059Z",
+          "value": 19.31
+        },
+        {
+          "timestamp": "2026-05-22T17:49:21.257Z",
+          "value": 19.28
+        },
+        {
+          "timestamp": "2026-05-26T00:34:29.738Z",
+          "value": 19.78
+        },
+        {
+          "timestamp": "2026-05-29T11:04:02.701Z",
+          "value": 18.92
+        },
+        {
+          "timestamp": "2026-06-01T16:51:10.907Z",
+          "value": 19.32
+        },
+        {
+          "timestamp": "2026-06-05T03:09:25.181Z",
+          "value": 20.49
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 20.58
+        }
+      ],
+      "createdAt": "2021-04-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-099",
+      "assetId": "ast-097",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 23.66
+        },
+        {
+          "timestamp": "2026-05-12T18:55:00.266Z",
+          "value": 24.91
+        },
+        {
+          "timestamp": "2026-05-16T02:51:52.128Z",
+          "value": 23.87
+        },
+        {
+          "timestamp": "2026-05-19T09:41:23.059Z",
+          "value": 22.55
+        },
+        {
+          "timestamp": "2026-05-22T17:49:21.257Z",
+          "value": 21.01
+        },
+        {
+          "timestamp": "2026-05-26T00:34:29.738Z",
+          "value": 21.88
+        },
+        {
+          "timestamp": "2026-05-29T11:04:02.701Z",
+          "value": 21.24
+        },
+        {
+          "timestamp": "2026-06-01T16:51:10.907Z",
+          "value": 19.28
+        },
+        {
+          "timestamp": "2026-06-05T03:09:25.181Z",
+          "value": 24.52
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 22.38
+        }
+      ],
+      "createdAt": "2021-04-16T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-101",
+      "assetId": "ast-100",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 19.64
+        },
+        {
+          "timestamp": "2026-05-12T17:36:44.631Z",
+          "value": 20.59
+        },
+        {
+          "timestamp": "2026-05-16T01:45:20.848Z",
+          "value": 18.73
+        },
+        {
+          "timestamp": "2026-05-19T09:42:04.600Z",
+          "value": 18.28
+        },
+        {
+          "timestamp": "2026-05-22T19:23:35.461Z",
+          "value": 17.73
+        },
+        {
+          "timestamp": "2026-05-26T00:35:37.861Z",
+          "value": 18.7
+        },
+        {
+          "timestamp": "2026-05-29T09:50:00.637Z",
+          "value": 21.56
+        },
+        {
+          "timestamp": "2026-06-01T16:43:57.158Z",
+          "value": 17.46
+        },
+        {
+          "timestamp": "2026-06-05T02:25:21.587Z",
+          "value": 17.94
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 20.51
+        }
+      ],
+      "createdAt": "2020-09-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-102",
+      "assetId": "ast-100",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 24.62
+        },
+        {
+          "timestamp": "2026-05-12T17:36:44.631Z",
+          "value": 25.12
+        },
+        {
+          "timestamp": "2026-05-16T01:45:20.848Z",
+          "value": 26.61
+        },
+        {
+          "timestamp": "2026-05-19T09:42:04.600Z",
+          "value": 27.89
+        },
+        {
+          "timestamp": "2026-05-22T19:23:35.461Z",
+          "value": 34.12
+        },
+        {
+          "timestamp": "2026-05-26T00:35:37.861Z",
+          "value": 27.79
+        },
+        {
+          "timestamp": "2026-05-29T09:50:00.637Z",
+          "value": 28.11
+        },
+        {
+          "timestamp": "2026-06-01T16:43:57.158Z",
+          "value": 28.5
+        },
+        {
+          "timestamp": "2026-06-05T02:25:21.587Z",
+          "value": 28.3
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 27.06
+        }
+      ],
+      "createdAt": "2020-09-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-104",
+      "assetId": "ast-103",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 18.81
+        },
+        {
+          "timestamp": "2026-05-12T17:23:44.435Z",
+          "value": 18.39
+        },
+        {
+          "timestamp": "2026-05-16T02:21:53.630Z",
+          "value": 18.4
+        },
+        {
+          "timestamp": "2026-05-19T08:47:56.145Z",
+          "value": 18.9
+        },
+        {
+          "timestamp": "2026-05-22T17:54:33.023Z",
+          "value": 25.22
+        },
+        {
+          "timestamp": "2026-05-26T03:25:08.214Z",
+          "value": 19.92
+        },
+        {
+          "timestamp": "2026-05-29T09:35:50.394Z",
+          "value": 21.1
+        },
+        {
+          "timestamp": "2026-06-01T17:27:27.048Z",
+          "value": 20.29
+        },
+        {
+          "timestamp": "2026-06-05T03:14:23.620Z",
+          "value": 20.25
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 18.99
+        }
+      ],
+      "createdAt": "2018-12-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-105",
+      "assetId": "ast-103",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.8
+        },
+        {
+          "timestamp": "2026-05-12T17:23:44.435Z",
+          "value": 27.66
+        },
+        {
+          "timestamp": "2026-05-16T02:21:53.630Z",
+          "value": 26.12
+        },
+        {
+          "timestamp": "2026-05-19T08:47:56.145Z",
+          "value": 24.24
+        },
+        {
+          "timestamp": "2026-05-22T17:54:33.023Z",
+          "value": 22.48
+        },
+        {
+          "timestamp": "2026-05-26T03:25:08.214Z",
+          "value": 23.07
+        },
+        {
+          "timestamp": "2026-05-29T09:35:50.394Z",
+          "value": 24.16
+        },
+        {
+          "timestamp": "2026-06-01T17:27:27.048Z",
+          "value": 22.64
+        },
+        {
+          "timestamp": "2026-06-05T03:14:23.620Z",
+          "value": 23.32
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 25.3
+        }
+      ],
+      "createdAt": "2018-12-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-107",
+      "assetId": "ast-106",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 18.65
+        },
+        {
+          "timestamp": "2026-05-12T17:41:11.141Z",
+          "value": 19.01
+        },
+        {
+          "timestamp": "2026-05-16T01:18:40.188Z",
+          "value": 17.79
+        },
+        {
+          "timestamp": "2026-05-19T09:06:56.154Z",
+          "value": 17.81
+        },
+        {
+          "timestamp": "2026-05-22T17:08:02.125Z",
+          "value": 18.26
+        },
+        {
+          "timestamp": "2026-05-26T01:09:19.245Z",
+          "value": 16.83
+        },
+        {
+          "timestamp": "2026-05-29T08:34:39.214Z",
+          "value": 16.16
+        },
+        {
+          "timestamp": "2026-06-01T16:33:30.041Z",
+          "value": 17.07
+        },
+        {
+          "timestamp": "2026-06-05T00:59:06.913Z",
+          "value": 17.92
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 17.08
+        }
+      ],
+      "createdAt": "2020-09-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-108",
+      "assetId": "ast-106",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 24.28
+        },
+        {
+          "timestamp": "2026-05-12T17:41:11.141Z",
+          "value": 22.6
+        },
+        {
+          "timestamp": "2026-05-16T01:18:40.188Z",
+          "value": 21.85
+        },
+        {
+          "timestamp": "2026-05-19T09:06:56.154Z",
+          "value": 21.07
+        },
+        {
+          "timestamp": "2026-05-22T17:08:02.125Z",
+          "value": 21.7
+        },
+        {
+          "timestamp": "2026-05-26T01:09:19.245Z",
+          "value": 20.83
+        },
+        {
+          "timestamp": "2026-05-29T08:34:39.214Z",
+          "value": 20.79
+        },
+        {
+          "timestamp": "2026-06-01T16:33:30.041Z",
+          "value": 18.94
+        },
+        {
+          "timestamp": "2026-06-05T00:59:06.913Z",
+          "value": 20.48
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 19.7
+        }
+      ],
+      "createdAt": "2020-09-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-110",
+      "assetId": "ast-109",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 19.19
+        },
+        {
+          "timestamp": "2026-05-12T18:33:23.389Z",
+          "value": 18.71
+        },
+        {
+          "timestamp": "2026-05-16T00:39:18.861Z",
+          "value": 17.29
+        },
+        {
+          "timestamp": "2026-05-19T09:23:39.299Z",
+          "value": 16.02
+        },
+        {
+          "timestamp": "2026-05-22T18:06:33.393Z",
+          "value": 15.38
+        },
+        {
+          "timestamp": "2026-05-26T03:16:41.772Z",
+          "value": 14.73
+        },
+        {
+          "timestamp": "2026-05-29T10:03:25.651Z",
+          "value": 15.25
+        },
+        {
+          "timestamp": "2026-06-01T18:16:11.692Z",
+          "value": 13.15
+        },
+        {
+          "timestamp": "2026-06-05T00:47:32.663Z",
+          "value": 15.66
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 12
+        }
+      ],
+      "createdAt": "2023-01-06T00:00:00.000Z",
+      "updatedAt": "2023-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "ts-111",
+      "assetId": "ast-109",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.81
+        },
+        {
+          "timestamp": "2026-05-12T18:33:23.389Z",
+          "value": 25.94
+        },
+        {
+          "timestamp": "2026-05-16T00:39:18.861Z",
+          "value": 24.63
+        },
+        {
+          "timestamp": "2026-05-19T09:23:39.299Z",
+          "value": 29.17
+        },
+        {
+          "timestamp": "2026-05-22T18:06:33.393Z",
+          "value": 24.32
+        },
+        {
+          "timestamp": "2026-05-26T03:16:41.772Z",
+          "value": 23.78
+        },
+        {
+          "timestamp": "2026-05-29T10:03:25.651Z",
+          "value": 22.48
+        },
+        {
+          "timestamp": "2026-06-01T18:16:11.692Z",
+          "value": 22.87
+        },
+        {
+          "timestamp": "2026-06-05T00:47:32.663Z",
+          "value": 24.58
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 23.1
+        }
+      ],
+      "createdAt": "2023-01-06T00:00:00.000Z",
+      "updatedAt": "2023-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "ts-113",
+      "assetId": "ast-112",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 21.45
+        },
+        {
+          "timestamp": "2026-05-12T17:46:20.994Z",
+          "value": 21.36
+        },
+        {
+          "timestamp": "2026-05-16T00:48:47.918Z",
+          "value": 22.64
+        },
+        {
+          "timestamp": "2026-05-19T11:25:27.586Z",
+          "value": 23.58
+        },
+        {
+          "timestamp": "2026-05-22T18:47:59.546Z",
+          "value": 22.98
+        },
+        {
+          "timestamp": "2026-05-26T01:33:19.444Z",
+          "value": 22.78
+        },
+        {
+          "timestamp": "2026-05-29T10:47:55.400Z",
+          "value": 24.12
+        },
+        {
+          "timestamp": "2026-06-01T18:10:39.301Z",
+          "value": 23.61
+        },
+        {
+          "timestamp": "2026-06-05T02:44:12.392Z",
+          "value": 23.55
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 24.83
+        }
+      ],
+      "createdAt": "2019-09-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-114",
+      "assetId": "ast-112",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.8
+        },
+        {
+          "timestamp": "2026-05-12T17:46:20.994Z",
+          "value": 26.85
+        },
+        {
+          "timestamp": "2026-05-16T00:48:47.918Z",
+          "value": 24.94
+        },
+        {
+          "timestamp": "2026-05-19T11:25:27.586Z",
+          "value": 26.6
+        },
+        {
+          "timestamp": "2026-05-22T18:47:59.546Z",
+          "value": 26.35
+        },
+        {
+          "timestamp": "2026-05-26T01:33:19.444Z",
+          "value": 24.45
+        },
+        {
+          "timestamp": "2026-05-29T10:47:55.400Z",
+          "value": 24.17
+        },
+        {
+          "timestamp": "2026-06-01T18:10:39.301Z",
+          "value": 23.8
+        },
+        {
+          "timestamp": "2026-06-05T02:44:12.392Z",
+          "value": 27.14
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 26.18
+        }
+      ],
+      "createdAt": "2019-09-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-116",
+      "assetId": "ast-115",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 20.88
+        },
+        {
+          "timestamp": "2026-05-12T18:52:46.860Z",
+          "value": 22.33
+        },
+        {
+          "timestamp": "2026-05-16T01:46:54.001Z",
+          "value": 25.9
+        },
+        {
+          "timestamp": "2026-05-19T10:28:12.884Z",
+          "value": 21.43
+        },
+        {
+          "timestamp": "2026-05-22T18:47:33.824Z",
+          "value": 21.37
+        },
+        {
+          "timestamp": "2026-05-26T02:11:33.544Z",
+          "value": 22.51
+        },
+        {
+          "timestamp": "2026-05-29T09:09:58.752Z",
+          "value": 21.85
+        },
+        {
+          "timestamp": "2026-06-01T19:13:51.872Z",
+          "value": 22.26
+        },
+        {
+          "timestamp": "2026-06-05T02:40:09.187Z",
+          "value": 25.94
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 22.02
+        }
+      ],
+      "createdAt": "2022-10-04T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-117",
+      "assetId": "ast-115",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 24.13
+        },
+        {
+          "timestamp": "2026-05-12T18:52:46.860Z",
+          "value": 23.93
+        },
+        {
+          "timestamp": "2026-05-16T01:46:54.001Z",
+          "value": 22.91
+        },
+        {
+          "timestamp": "2026-05-19T10:28:12.884Z",
+          "value": 23.92
+        },
+        {
+          "timestamp": "2026-05-22T18:47:33.824Z",
+          "value": 23.78
+        },
+        {
+          "timestamp": "2026-05-26T02:11:33.544Z",
+          "value": 22.36
+        },
+        {
+          "timestamp": "2026-05-29T09:09:58.752Z",
+          "value": 21.69
+        },
+        {
+          "timestamp": "2026-06-01T19:13:51.872Z",
+          "value": 22.6
+        },
+        {
+          "timestamp": "2026-06-05T02:40:09.187Z",
+          "value": 22.99
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 21.18
+        }
+      ],
+      "createdAt": "2022-10-04T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-119",
+      "assetId": "ast-118",
+      "kind": "pressure",
+      "label": "Process Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 19.71
+        },
+        {
+          "timestamp": "2026-05-12T18:01:35.824Z",
+          "value": 19.63
+        },
+        {
+          "timestamp": "2026-05-16T03:26:01.195Z",
+          "value": 20.49
+        },
+        {
+          "timestamp": "2026-05-19T10:41:15.663Z",
+          "value": 21
+        },
+        {
+          "timestamp": "2026-05-22T16:53:45.058Z",
+          "value": 21.05
+        },
+        {
+          "timestamp": "2026-05-26T01:23:12.289Z",
+          "value": 20.26
+        },
+        {
+          "timestamp": "2026-05-29T08:49:35.554Z",
+          "value": 21.25
+        },
+        {
+          "timestamp": "2026-06-01T19:28:35.558Z",
+          "value": 19.99
+        },
+        {
+          "timestamp": "2026-06-05T02:34:22.860Z",
+          "value": 19.15
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 18.21
+        }
+      ],
+      "createdAt": "2018-07-31T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-120",
+      "assetId": "ast-118",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.75
+        },
+        {
+          "timestamp": "2026-05-12T18:01:35.824Z",
+          "value": 34.96
+        },
+        {
+          "timestamp": "2026-05-16T03:26:01.195Z",
+          "value": 25.67
+        },
+        {
+          "timestamp": "2026-05-19T10:41:15.663Z",
+          "value": 25.16
+        },
+        {
+          "timestamp": "2026-05-22T16:53:45.058Z",
+          "value": 32.5
+        },
+        {
+          "timestamp": "2026-05-26T01:23:12.289Z",
+          "value": 23.98
+        },
+        {
+          "timestamp": "2026-05-29T08:49:35.554Z",
+          "value": 24.56
+        },
+        {
+          "timestamp": "2026-06-01T19:28:35.558Z",
+          "value": 26.18
+        },
+        {
+          "timestamp": "2026-06-05T02:34:22.860Z",
+          "value": 26.71
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 25.91
+        }
+      ],
+      "createdAt": "2018-07-31T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-122",
+      "assetId": "ast-121",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 8.43
+        },
+        {
+          "timestamp": "2026-05-12T18:36:29.007Z",
+          "value": 7.55
+        },
+        {
+          "timestamp": "2026-05-16T00:46:15.617Z",
+          "value": 7.91
+        },
+        {
+          "timestamp": "2026-05-19T09:13:52.087Z",
+          "value": 7.51
+        },
+        {
+          "timestamp": "2026-05-22T18:04:25.248Z",
+          "value": 8.11
+        },
+        {
+          "timestamp": "2026-05-26T00:44:38.360Z",
+          "value": 7.78
+        },
+        {
+          "timestamp": "2026-05-29T11:29:45.622Z",
+          "value": 8.45
+        },
+        {
+          "timestamp": "2026-06-01T19:05:00.249Z",
+          "value": 8.83
+        },
+        {
+          "timestamp": "2026-06-05T00:43:46.579Z",
+          "value": 9.51
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 10.21
+        }
+      ],
+      "createdAt": "2018-07-08T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-123",
+      "assetId": "ast-121",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 79.99
+        },
+        {
+          "timestamp": "2026-05-12T18:36:29.007Z",
+          "value": 76.51
+        },
+        {
+          "timestamp": "2026-05-16T00:46:15.617Z",
+          "value": 66.21
+        },
+        {
+          "timestamp": "2026-05-19T09:13:52.087Z",
+          "value": 71.11
+        },
+        {
+          "timestamp": "2026-05-22T18:04:25.248Z",
+          "value": 69.68
+        },
+        {
+          "timestamp": "2026-05-26T00:44:38.360Z",
+          "value": 70.6
+        },
+        {
+          "timestamp": "2026-05-29T11:29:45.622Z",
+          "value": 66.7
+        },
+        {
+          "timestamp": "2026-06-01T19:05:00.249Z",
+          "value": 61.84
+        },
+        {
+          "timestamp": "2026-06-05T00:43:46.579Z",
+          "value": 62.58
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 63.39
+        }
+      ],
+      "createdAt": "2018-07-08T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-125",
+      "assetId": "ast-124",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 8.26
+        },
+        {
+          "timestamp": "2026-05-12T18:07:40.925Z",
+          "value": 7.52
+        },
+        {
+          "timestamp": "2026-05-16T01:43:18.517Z",
+          "value": 7.22
+        },
+        {
+          "timestamp": "2026-05-19T09:36:32.401Z",
+          "value": 7.32
+        },
+        {
+          "timestamp": "2026-05-22T16:52:03.550Z",
+          "value": 8.27
+        },
+        {
+          "timestamp": "2026-05-26T01:33:25.198Z",
+          "value": 7.78
+        },
+        {
+          "timestamp": "2026-05-29T10:23:16.783Z",
+          "value": 7.19
+        },
+        {
+          "timestamp": "2026-06-01T19:11:40.185Z",
+          "value": 6.47
+        },
+        {
+          "timestamp": "2026-06-05T01:32:34.475Z",
+          "value": 6.78
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 6.77
+        }
+      ],
+      "createdAt": "2020-07-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-126",
+      "assetId": "ast-124",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 74.55
+        },
+        {
+          "timestamp": "2026-05-12T18:07:40.925Z",
+          "value": 74.13
+        },
+        {
+          "timestamp": "2026-05-16T01:43:18.517Z",
+          "value": 76.47
+        },
+        {
+          "timestamp": "2026-05-19T09:36:32.401Z",
+          "value": 77.7
+        },
+        {
+          "timestamp": "2026-05-22T16:52:03.550Z",
+          "value": 81.45
+        },
+        {
+          "timestamp": "2026-05-26T01:33:25.198Z",
+          "value": 80.06
+        },
+        {
+          "timestamp": "2026-05-29T10:23:16.783Z",
+          "value": 82.12
+        },
+        {
+          "timestamp": "2026-06-01T19:11:40.185Z",
+          "value": 83
+        },
+        {
+          "timestamp": "2026-06-05T01:32:34.475Z",
+          "value": 81.87
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 77.76
+        }
+      ],
+      "createdAt": "2020-07-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-128",
+      "assetId": "ast-127",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 8.98
+        },
+        {
+          "timestamp": "2026-05-12T18:02:19.845Z",
+          "value": 8.76
+        },
+        {
+          "timestamp": "2026-05-16T02:44:32.539Z",
+          "value": 9.06
+        },
+        {
+          "timestamp": "2026-05-19T09:58:59.273Z",
+          "value": 7.78
+        },
+        {
+          "timestamp": "2026-05-22T17:50:08.477Z",
+          "value": 6.92
+        },
+        {
+          "timestamp": "2026-05-26T02:06:37.135Z",
+          "value": 6.68
+        },
+        {
+          "timestamp": "2026-05-29T10:52:53.243Z",
+          "value": 6.87
+        },
+        {
+          "timestamp": "2026-06-01T17:31:56.177Z",
+          "value": 6.36
+        },
+        {
+          "timestamp": "2026-06-05T02:52:42.178Z",
+          "value": 7.21
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 7.84
+        }
+      ],
+      "createdAt": "2020-08-24T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-129",
+      "assetId": "ast-127",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 76.32
+        },
+        {
+          "timestamp": "2026-05-12T18:02:19.845Z",
+          "value": 77.45
+        },
+        {
+          "timestamp": "2026-05-16T02:44:32.539Z",
+          "value": 75.86
+        },
+        {
+          "timestamp": "2026-05-19T09:58:59.273Z",
+          "value": 80.18
+        },
+        {
+          "timestamp": "2026-05-22T17:50:08.477Z",
+          "value": 76.22
+        },
+        {
+          "timestamp": "2026-05-26T02:06:37.135Z",
+          "value": 78.31
+        },
+        {
+          "timestamp": "2026-05-29T10:52:53.243Z",
+          "value": 78.09
+        },
+        {
+          "timestamp": "2026-06-01T17:31:56.177Z",
+          "value": 81.1
+        },
+        {
+          "timestamp": "2026-06-05T02:52:42.178Z",
+          "value": 77.24
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 75.99
+        }
+      ],
+      "createdAt": "2020-08-24T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-131",
+      "assetId": "ast-130",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 8.43
+        },
+        {
+          "timestamp": "2026-05-12T18:02:35.714Z",
+          "value": 8.35
+        },
+        {
+          "timestamp": "2026-05-16T01:16:40.885Z",
+          "value": 9.1
+        },
+        {
+          "timestamp": "2026-05-19T10:05:01.617Z",
+          "value": 8.93
+        },
+        {
+          "timestamp": "2026-05-22T16:37:47.016Z",
+          "value": 8.63
+        },
+        {
+          "timestamp": "2026-05-26T01:56:39.794Z",
+          "value": 8.95
+        },
+        {
+          "timestamp": "2026-05-29T09:50:58.718Z",
+          "value": 9.06
+        },
+        {
+          "timestamp": "2026-06-01T17:20:28.309Z",
+          "value": 9.87
+        },
+        {
+          "timestamp": "2026-06-05T01:28:32.747Z",
+          "value": 9.69
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 9.86
+        }
+      ],
+      "createdAt": "2019-03-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-132",
+      "assetId": "ast-130",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 70.36
+        },
+        {
+          "timestamp": "2026-05-12T18:02:35.714Z",
+          "value": 92.59
+        },
+        {
+          "timestamp": "2026-05-16T01:16:40.885Z",
+          "value": 73.93
+        },
+        {
+          "timestamp": "2026-05-19T10:05:01.617Z",
+          "value": 74.85
+        },
+        {
+          "timestamp": "2026-05-22T16:37:47.016Z",
+          "value": 70.26
+        },
+        {
+          "timestamp": "2026-05-26T01:56:39.794Z",
+          "value": 75.05
+        },
+        {
+          "timestamp": "2026-05-29T09:50:58.718Z",
+          "value": 70.36
+        },
+        {
+          "timestamp": "2026-06-01T17:20:28.309Z",
+          "value": 74.28
+        },
+        {
+          "timestamp": "2026-06-05T01:28:32.747Z",
+          "value": 75.65
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 80.28
+        }
+      ],
+      "createdAt": "2019-03-21T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-134",
+      "assetId": "ast-133",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 8.68
+        },
+        {
+          "timestamp": "2026-05-12T18:01:26.251Z",
+          "value": 9.29
+        },
+        {
+          "timestamp": "2026-05-16T03:06:21.197Z",
+          "value": 9.19
+        },
+        {
+          "timestamp": "2026-05-19T11:24:19.964Z",
+          "value": 8.49
+        },
+        {
+          "timestamp": "2026-05-22T18:35:55.563Z",
+          "value": 8.73
+        },
+        {
+          "timestamp": "2026-05-26T00:47:24.656Z",
+          "value": 8.65
+        },
+        {
+          "timestamp": "2026-05-29T08:40:40.500Z",
+          "value": 9.61
+        },
+        {
+          "timestamp": "2026-06-01T16:53:47.178Z",
+          "value": 9.4
+        },
+        {
+          "timestamp": "2026-06-05T03:19:00.114Z",
+          "value": 10.37
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 10.86
+        }
+      ],
+      "createdAt": "2022-02-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-135",
+      "assetId": "ast-133",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 76.34
+        },
+        {
+          "timestamp": "2026-05-12T18:01:26.251Z",
+          "value": 74.35
+        },
+        {
+          "timestamp": "2026-05-16T03:06:21.197Z",
+          "value": 78.32
+        },
+        {
+          "timestamp": "2026-05-19T11:24:19.964Z",
+          "value": 80.78
+        },
+        {
+          "timestamp": "2026-05-22T18:35:55.563Z",
+          "value": 84.97
+        },
+        {
+          "timestamp": "2026-05-26T00:47:24.656Z",
+          "value": 88.62
+        },
+        {
+          "timestamp": "2026-05-29T08:40:40.500Z",
+          "value": 90.08
+        },
+        {
+          "timestamp": "2026-06-01T16:53:47.178Z",
+          "value": 86.32
+        },
+        {
+          "timestamp": "2026-06-05T03:19:00.114Z",
+          "value": 85.05
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 88.33
+        }
+      ],
+      "createdAt": "2022-02-10T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-137",
+      "assetId": "ast-136",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 7.45
+        },
+        {
+          "timestamp": "2026-05-12T18:07:18.586Z",
+          "value": 7.32
+        },
+        {
+          "timestamp": "2026-05-16T01:41:09.443Z",
+          "value": 8.06
+        },
+        {
+          "timestamp": "2026-05-19T08:45:57.031Z",
+          "value": 9.03
+        },
+        {
+          "timestamp": "2026-05-22T18:42:41.226Z",
+          "value": 8.08
+        },
+        {
+          "timestamp": "2026-05-26T01:33:00.681Z",
+          "value": 8.57
+        },
+        {
+          "timestamp": "2026-05-29T08:34:12.866Z",
+          "value": 9.06
+        },
+        {
+          "timestamp": "2026-06-01T18:04:29.747Z",
+          "value": 9.42
+        },
+        {
+          "timestamp": "2026-06-05T03:18:57.304Z",
+          "value": 9.84
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 10.44
+        }
+      ],
+      "createdAt": "2019-09-13T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-138",
+      "assetId": "ast-136",
+      "kind": "temperature",
+      "label": "Operating Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 88.53
+        },
+        {
+          "timestamp": "2026-05-12T18:07:18.586Z",
+          "value": 73.24
+        },
+        {
+          "timestamp": "2026-05-16T01:41:09.443Z",
+          "value": 68.59
+        },
+        {
+          "timestamp": "2026-05-19T08:45:57.031Z",
+          "value": 65.53
+        },
+        {
+          "timestamp": "2026-05-22T18:42:41.226Z",
+          "value": 66.88
+        },
+        {
+          "timestamp": "2026-05-26T01:33:00.681Z",
+          "value": 70.22
+        },
+        {
+          "timestamp": "2026-05-29T08:34:12.866Z",
+          "value": 73.45
+        },
+        {
+          "timestamp": "2026-06-01T18:04:29.747Z",
+          "value": 72.85
+        },
+        {
+          "timestamp": "2026-06-05T03:18:57.304Z",
+          "value": 69.87
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 69.42
+        }
+      ],
+      "createdAt": "2019-09-13T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-140",
+      "assetId": "ast-139",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 26.7
+        },
+        {
+          "timestamp": "2026-05-12T19:16:43.039Z",
+          "value": 24.28
+        },
+        {
+          "timestamp": "2026-05-16T01:34:07.385Z",
+          "value": 22.98
+        },
+        {
+          "timestamp": "2026-05-19T11:03:42.111Z",
+          "value": 26.32
+        },
+        {
+          "timestamp": "2026-05-22T17:19:41.644Z",
+          "value": 22.16
+        },
+        {
+          "timestamp": "2026-05-26T00:46:16.274Z",
+          "value": 21.39
+        },
+        {
+          "timestamp": "2026-05-29T08:58:58.871Z",
+          "value": 19.97
+        },
+        {
+          "timestamp": "2026-06-01T16:35:59.866Z",
+          "value": 20.94
+        },
+        {
+          "timestamp": "2026-06-05T01:34:02.680Z",
+          "value": 19.07
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 18.71
+        }
+      ],
+      "createdAt": "2022-02-22T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-141",
+      "assetId": "ast-139",
+      "kind": "temperature",
+      "label": "Outlet Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 85.34
+        },
+        {
+          "timestamp": "2026-05-12T19:16:43.039Z",
+          "value": 80.73
+        },
+        {
+          "timestamp": "2026-05-16T01:34:07.385Z",
+          "value": 83.02
+        },
+        {
+          "timestamp": "2026-05-19T11:03:42.111Z",
+          "value": 84
+        },
+        {
+          "timestamp": "2026-05-22T17:19:41.644Z",
+          "value": 91.5
+        },
+        {
+          "timestamp": "2026-05-26T00:46:16.274Z",
+          "value": 95.49
+        },
+        {
+          "timestamp": "2026-05-29T08:58:58.871Z",
+          "value": 117.88,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-01T16:35:59.866Z",
+          "value": 101.19
+        },
+        {
+          "timestamp": "2026-06-05T01:34:02.680Z",
+          "value": 96.09
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 91.22
+        }
+      ],
+      "createdAt": "2022-02-22T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-143",
+      "assetId": "ast-142",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 23.51
+        },
+        {
+          "timestamp": "2026-05-12T17:08:16.017Z",
+          "value": 24.56
+        },
+        {
+          "timestamp": "2026-05-16T01:51:23.858Z",
+          "value": 24.89
+        },
+        {
+          "timestamp": "2026-05-19T10:19:08.095Z",
+          "value": 25.75
+        },
+        {
+          "timestamp": "2026-05-22T16:56:11.830Z",
+          "value": 26.91
+        },
+        {
+          "timestamp": "2026-05-26T00:32:04.597Z",
+          "value": 28.51
+        },
+        {
+          "timestamp": "2026-05-29T09:57:42.203Z",
+          "value": 32.79
+        },
+        {
+          "timestamp": "2026-06-01T17:19:14.592Z",
+          "value": 29.41
+        },
+        {
+          "timestamp": "2026-06-05T01:02:34.015Z",
+          "value": 29.64
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 30.33
+        }
+      ],
+      "createdAt": "2019-04-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-144",
+      "assetId": "ast-142",
+      "kind": "temperature",
+      "label": "Outlet Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 79.66
+        },
+        {
+          "timestamp": "2026-05-12T17:08:16.017Z",
+          "value": 85.49
+        },
+        {
+          "timestamp": "2026-05-16T01:51:23.858Z",
+          "value": 88.97
+        },
+        {
+          "timestamp": "2026-05-19T10:19:08.095Z",
+          "value": 85.62
+        },
+        {
+          "timestamp": "2026-05-22T16:56:11.830Z",
+          "value": 91.32
+        },
+        {
+          "timestamp": "2026-05-26T00:32:04.597Z",
+          "value": 98.77
+        },
+        {
+          "timestamp": "2026-05-29T09:57:42.203Z",
+          "value": 95.8
+        },
+        {
+          "timestamp": "2026-06-01T17:19:14.592Z",
+          "value": 98.22
+        },
+        {
+          "timestamp": "2026-06-05T01:02:34.015Z",
+          "value": 104.29
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 137.27,
+          "anomaly": true
+        }
+      ],
+      "createdAt": "2019-04-03T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-146",
+      "assetId": "ast-145",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 24.34
+        },
+        {
+          "timestamp": "2026-05-12T18:45:29.192Z",
+          "value": 24.9
+        },
+        {
+          "timestamp": "2026-05-16T01:55:58.217Z",
+          "value": 24
+        },
+        {
+          "timestamp": "2026-05-19T10:00:38.196Z",
+          "value": 24.7
+        },
+        {
+          "timestamp": "2026-05-22T19:13:39.041Z",
+          "value": 25.82
+        },
+        {
+          "timestamp": "2026-05-26T02:34:11.082Z",
+          "value": 26.81
+        },
+        {
+          "timestamp": "2026-05-29T11:01:12.612Z",
+          "value": 26.17
+        },
+        {
+          "timestamp": "2026-06-01T17:18:33.788Z",
+          "value": 31.17
+        },
+        {
+          "timestamp": "2026-06-05T00:58:36.584Z",
+          "value": 23
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 21.43
+        }
+      ],
+      "createdAt": "2021-06-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-147",
+      "assetId": "ast-145",
+      "kind": "temperature",
+      "label": "Outlet Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 72.45
+        },
+        {
+          "timestamp": "2026-05-12T18:45:29.192Z",
+          "value": 76.99
+        },
+        {
+          "timestamp": "2026-05-16T01:55:58.217Z",
+          "value": 69.33
+        },
+        {
+          "timestamp": "2026-05-19T10:00:38.196Z",
+          "value": 66.17
+        },
+        {
+          "timestamp": "2026-05-22T19:13:39.041Z",
+          "value": 71.43
+        },
+        {
+          "timestamp": "2026-05-26T02:34:11.082Z",
+          "value": 74.09
+        },
+        {
+          "timestamp": "2026-05-29T11:01:12.612Z",
+          "value": 66.42
+        },
+        {
+          "timestamp": "2026-06-01T17:18:33.788Z",
+          "value": 65.59
+        },
+        {
+          "timestamp": "2026-06-05T00:58:36.584Z",
+          "value": 61.24
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 62.39
+        }
+      ],
+      "createdAt": "2021-06-25T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-149",
+      "assetId": "ast-148",
+      "kind": "pressure",
+      "label": "Inlet Pressure",
+      "unit": "bar",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 29.77
+        },
+        {
+          "timestamp": "2026-05-12T19:00:52.212Z",
+          "value": 27.58
+        },
+        {
+          "timestamp": "2026-05-16T01:41:32.262Z",
+          "value": 29.18
+        },
+        {
+          "timestamp": "2026-05-19T11:08:43.720Z",
+          "value": 28.41
+        },
+        {
+          "timestamp": "2026-05-22T18:11:51.158Z",
+          "value": 28.74
+        },
+        {
+          "timestamp": "2026-05-26T01:13:57.662Z",
+          "value": 29.5
+        },
+        {
+          "timestamp": "2026-05-29T10:00:43.588Z",
+          "value": 38.42,
+          "anomaly": true
+        },
+        {
+          "timestamp": "2026-06-01T17:57:53.156Z",
+          "value": 30.85
+        },
+        {
+          "timestamp": "2026-06-05T03:15:04.315Z",
+          "value": 30.8
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 32.06
+        }
+      ],
+      "createdAt": "2020-03-30T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "ts-150",
+      "assetId": "ast-148",
+      "kind": "temperature",
+      "label": "Outlet Temperature",
+      "unit": "°C",
+      "readings": [
+        {
+          "timestamp": "2026-05-09T10:00:00.000Z",
+          "value": 85.15
+        },
+        {
+          "timestamp": "2026-05-12T19:00:52.212Z",
+          "value": 92.24
+        },
+        {
+          "timestamp": "2026-05-16T01:41:32.262Z",
+          "value": 88.79
+        },
+        {
+          "timestamp": "2026-05-19T11:08:43.720Z",
+          "value": 80.93
+        },
+        {
+          "timestamp": "2026-05-22T18:11:51.158Z",
+          "value": 77.02
+        },
+        {
+          "timestamp": "2026-05-26T01:13:57.662Z",
+          "value": 77.19
+        },
+        {
+          "timestamp": "2026-05-29T10:00:43.588Z",
+          "value": 74.66
+        },
+        {
+          "timestamp": "2026-06-01T17:57:53.156Z",
+          "value": 77.59
+        },
+        {
+          "timestamp": "2026-06-05T03:15:04.315Z",
+          "value": 74.92
+        },
+        {
+          "timestamp": "2026-06-08T10:00:00.000Z",
+          "value": 72.43
+        }
+      ],
+      "createdAt": "2020-03-30T00:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    }
+  ]
+}
