@@ -1,1 +1,275 @@
 @import 'tailwindcss';
+
+@theme {
+  /* --------------------------------------------------------------------------
+     COLOR — Raw palette stops
+     Naming: --color-{ramp}-{stop}
+     ★ marks the "communication stop" used for foreground on colored bg
+  -------------------------------------------------------------------------- */
+
+  /* Teal — primary action, online status, positive trend */
+  --color-teal-50: #e0faf3;
+  --color-teal-100: #9be5d0;
+  --color-teal-200: #55cdb0;
+  --color-teal-400: #00d4a0; /* ★ primary brand accent */
+  --color-teal-500: #00b085; /* CTA button bg (gradient end) */
+  --color-teal-600: #008c6a;
+  --color-teal-700: #00603f;
+  --color-teal-950: #0a1a14; /* CTA button text */
+
+  /* Red — critical alerts, delete, danger, threshold breach */
+  --color-red-50: #fff0f0;
+  --color-red-100: #ffc9c9;
+  --color-red-200: #ff9a9a;
+  --color-red-300: #f87171; /* ★ danger text on dark bg */
+  --color-red-400: #ef4444; /* ★ danger fill / icon */
+  --color-red-500: #dc2626;
+  --color-red-600: #b91c1c;
+  --color-red-800: #7f1d1d;
+
+  /* Amber — warning, near-threshold readings, elevated temp */
+  --color-amber-50: #fffbeb;
+  --color-amber-100: #fde68a;
+  --color-amber-300: #fbbf24;
+  --color-amber-400: #f59e0b; /* ★ warning fill / icon */
+  --color-amber-500: #d97706;
+  --color-amber-600: #b45309;
+  --color-amber-700: #92400e;
+  --color-amber-900: #451a03;
+
+  /* Blue — info highlights, focus ring, chart accent, logo gradient */
+  --color-blue-50: #eff6ff;
+  --color-blue-100: #bfdbfe;
+  --color-blue-300: #60a5fa; /* ★ info text on dark bg */
+  --color-blue-400: #3b82f6; /* ★ info fill / focus ring */
+  --color-blue-500: #2563eb; /* logo gradient end */
+  --color-blue-600: #1d4ed8;
+  --color-blue-700: #1e40af;
+  --color-blue-800: #1e3a8a;
+
+  /* Purple — avatars, user identity, secondary accent */
+  --color-purple-50: #f5f3ff;
+  --color-purple-100: #ddd6fe;
+  --color-purple-300: #a78bfa;
+  --color-purple-400: #8b5cf6; /* ★ avatar gradient end */
+  --color-purple-500: #7c3aed; /* avatar gradient start */
+  --color-purple-600: #6d28d9;
+  --color-purple-800: #4c1d95;
+  --color-purple-950: #2e1065;
+
+  /* Neutral / Navy — all backgrounds, borders, and body text */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-400: #94a3b8; /* muted text, icons */
+  --color-neutral-500: #6b7280; /* secondary text */
+  --color-neutral-600: #4b5563; /* tertiary text, placeholders */
+  --color-neutral-700: #374151; /* very muted, divider labels */
+  --color-neutral-800: #1e2433; /* border-default */
+  --color-neutral-810: #252d40; /* border-raised */
+  --color-neutral-820: #303a52; /* border-elevated */
+  --color-neutral-830: #1a2030; /* bg-raised (chip, hover) */
+  --color-neutral-850: #131824; /* bg-surface (cards, sidebar) */
+  --color-neutral-900: #0f1117; /* bg-page */
+  --color-neutral-950: #0c1018; /* bg-deepest (preview panel) */
+
+  /* --------------------------------------------------------------------------
+     COLOR — Semantic tokens
+     These are the tokens components reference; never use raw stops in components.
+     Named for their role, not their hue.
+  -------------------------------------------------------------------------- */
+
+  /* Backgrounds */
+  --color-bg-page: var(--color-neutral-900);
+  --color-bg-surface: var(--color-neutral-850);
+  --color-bg-raised: var(--color-neutral-830);
+  --color-bg-deepest: var(--color-neutral-950);
+
+  /* Borders */
+  --color-border-default: var(
+    --color-neutral-800
+  ); /* 0.5px — card edges, nav dividers */
+  --color-border-raised: var(
+    --color-neutral-810
+  ); /* 0.5px — chip, inner row dividers */
+  --color-border-subtle: var(--color-neutral-820); /* hover / emphasis */
+
+  /* Text */
+  --color-text-primary: #f1f5f9; /* headings, data values, asset names */
+  --color-text-secondary: #d1d5db; /* body copy, table cell text */
+  --color-text-muted: #9ca3af; /* metadata, nav items inactive */
+  --color-text-subtle: #6b7280; /* placeholders, breadcrumbs */
+  --color-text-faint: #4b5563; /* axis labels, field hints */
+  --color-text-ghost: #374151; /* divider labels, very quiet text */
+
+  /* Status — background */
+  --color-status-online-bg: rgba(0, 212, 160, 0.1);
+  --color-status-warning-bg: rgba(245, 158, 11, 0.12);
+  --color-status-critical-bg: rgba(239, 68, 68, 0.12);
+  --color-status-offline-bg: var(--color-neutral-830);
+  --color-status-info-bg: rgba(59, 130, 246, 0.1);
+  --color-status-new-bg: rgba(0, 212, 160, 0.07);
+  --color-anomaly-bg: rgba(239, 68, 68, 0.06);
+
+  /* Status — foreground */
+  --color-status-online-fg: var(--color-teal-500);
+  --color-status-warning-fg: var(--color-amber-400);
+  --color-status-critical-fg: var(--color-red-300);
+  --color-status-offline-fg: var(--color-neutral-500);
+  --color-status-info-fg: var(--color-blue-300);
+  --color-status-new-fg: var(--color-teal-400);
+  --color-anomaly-fg: var(--color-red-300);
+
+  /* Status — border */
+  --color-status-online-border: rgba(0, 212, 160, 0.2);
+  --color-status-warning-border: rgba(245, 158, 11, 0.25);
+  --color-status-critical-border: rgba(239, 68, 68, 0.25);
+  --color-status-offline-border: var(--color-neutral-810);
+  --color-status-info-border: rgba(59, 130, 246, 0.2);
+
+  /* Accent borders (top/left edge highlights on hero cards) */
+  --color-accent-teal: var(--color-teal-400);
+  --color-accent-red: var(--color-red-400);
+  --color-accent-tab: var(--color-teal-400); /* active tab underline */
+
+  /* Brand gradient */
+  --color-brand-gradient: linear-gradient(
+    135deg,
+    var(--color-teal-400),
+    var(--color-blue-500)
+  );
+  --color-cta-gradient: linear-gradient(
+    135deg,
+    var(--color-teal-400),
+    var(--color-teal-500)
+  );
+  --color-avatar-gradient: linear-gradient(
+    135deg,
+    var(--color-blue-400),
+    var(--color-purple-400)
+  );
+
+  /* Chart series */
+  --color-chart-pressure: var(--color-teal-400);
+  --color-chart-temperature: var(--color-amber-400);
+  --color-chart-threshold: rgba(239, 68, 68, 0.35);
+  --color-chart-anomaly: var(--color-red-400);
+  --color-chart-grid: var(--color-neutral-830);
+  --color-chart-grid-dashed: var(--color-neutral-830);
+  --color-chart-fill-teal: rgba(0, 212, 160, 0.15);
+  --color-chart-fill-amber: rgba(245, 158, 11, 0.15);
+
+  /* --------------------------------------------------------------------------
+     TYPOGRAPHY
+  -------------------------------------------------------------------------- */
+
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Fira Code', 'Cascadia Code', monospace;
+
+  /* Scale */
+  --text-xs: 12px; /* axis labels, chart x/y */
+  --text-sm: 14px; /* swatch stop, nav-badge, tag */
+  --text-base: 16px; /* caption, field hint, label-caps */
+  --text-md: 16px; /* body-sm, table cell, breadcrumb */
+  --text-lg: 18px; /* body, card-title, dialog title */
+  --text-xl: 20px; /* dialog title emphasis */
+  --text-2xl: 24px; /* section-title (sidebar logo, topbar) */
+  --text-3xl: 28px; /* page-title (asset hero name) */
+
+  /* KPI / reading values — monospace only */
+  --text-kpi: 28px;
+  --text-reading: 22px;
+  --text-reading-sm: 20px;
+
+  /* Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+
+  /* Letter spacing */
+  --tracking-caps: 0.06em; /* label-caps (section headers, card titles) */
+  --tracking-wide: 0.08em; /* nav-section labels */
+  --tracking-tight: -0.01em; /* large headings (logo name) */
+
+  /* Line heights */
+  --leading-tight: 1.3; /* alert text, asset name */
+  --leading-base: 1.5; /* body copy */
+  --leading-relaxed: 1.7; /* notes / long-form */
+
+  /* --------------------------------------------------------------------------
+     SPACING
+     Base unit: 4px
+  -------------------------------------------------------------------------- */
+
+  --space-1: 4px; /* icon gap, badge padding x */
+  --space-2: 8px; /* chip internal, swatch gap, action btn gap */
+  --space-3: 12px; /* nav item gap, card internal gap */
+  --space-4: 16px; /* card padding, section gap */
+  --space-5: 20px; /* topbar / content horizontal padding */
+  --space-6: 24px; /* page content padding (desktop) */
+  --space-8: 32px; /* between form sections */
+  --space-10: 40px; /* major section separators */
+
+  /* Component-specific */
+  --sidebar-width: 220px;
+  --topbar-height: 52px;
+  --form-footer-height: 58px;
+
+  /* --------------------------------------------------------------------------
+     BORDER RADIUS
+  -------------------------------------------------------------------------- */
+
+  --radius-xs: 4px; /* pagination btn, action btn, chart bar */
+  --radius-sm: 6px; /* chip, form input, select pill, tooltip */
+  --radius-md: 8px; /* meta cell, type-card, search bar, button */
+  --radius-lg: 12px; /* card, table card, dialog */
+  --radius-xl: 16px; /* app shell */
+  --radius-pill: 9999px; /* status badge, nav-badge, KPI delta */
+
+  /* --------------------------------------------------------------------------
+     BORDERS
+  -------------------------------------------------------------------------- */
+
+  --border-default: 0.5px solid var(--color-border-default);
+  --border-raised: 0.5px solid var(--color-border-raised);
+  --border-subtle: 0.5px solid var(--color-border-subtle);
+  --border-accent-width: 2px; /* top/left accent on hero cards and active tabs */
+
+  /* --------------------------------------------------------------------------
+     Z-INDEX / ELEVATION
+  -------------------------------------------------------------------------- */
+
+  --z-base: 0; /* page content — cards, tables, charts */
+  --z-sticky: 10; /* sticky topbar, filter bar */
+  --z-sidebar: 20; /* collapsible sidebar */
+  --z-dropdown: 30; /* filter selects, search popover */
+  --z-toast: 40; /* success / error toast notifications */
+  --z-overlay: 50; /* dialog / drawer backdrop */
+  --z-dialog: 60; /* create, edit, delete modals and drawers */
+
+  /* --------------------------------------------------------------------------
+     MOTION
+  -------------------------------------------------------------------------- */
+
+  --duration-instant: 80ms; /* hover bg swap */
+  --duration-fast: 150ms; /* button press, badge appear */
+  --duration-base: 200ms; /* nav item, tab switch */
+  --duration-moderate: 250ms; /* dialog open / close */
+  --duration-slow: 350ms; /* sidebar expand / collapse */
+
+  --ease-out: cubic-bezier(0, 0, 0.3, 1); /* entrances */
+  --ease-in: cubic-bezier(0.7, 0, 1, 1); /* exits */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1); /* state changes */
+
+  /* Shorthand transitions */
+  --transition-colors:
+    color var(--duration-instant) var(--ease-in-out),
+    background-color var(--duration-instant) var(--ease-in-out),
+    border-color var(--duration-instant) var(--ease-in-out);
+  --transition-transform: transform var(--duration-fast) var(--ease-out);
+  --transition-all: all var(--duration-base) var(--ease-in-out);
+}
+
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+}

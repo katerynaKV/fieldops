@@ -1,0 +1,8 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100vh;
+  background-color: var(--color-bg-surface);
+  border: var(--border-default);
+}
