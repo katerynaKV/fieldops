@@ -1,0 +1,24 @@
+.SidebarItem {
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  transition: all 0.2s ease-in-out;
+}
+
+.SidebarItem:hover {
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-900);
+}
+
+.SidebarItem.active {
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-900);
+}
+
+.SidebarItem:active,
+.SidebarItem.active:active {
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-800);
+}

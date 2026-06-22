@@ -15,6 +15,8 @@
   --color-teal-500: #00b085; /* CTA button bg (gradient end) */
   --color-teal-600: #008c6a;
   --color-teal-700: #00603f;
+  --color-teal-800: #203c42;
+  --color-teal-900: #182b2f;
   --color-teal-950: #0a1a14; /* CTA button text */
 
   /* Red — critical alerts, delete, danger, threshold breach */
